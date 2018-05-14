@@ -17,6 +17,7 @@ a:hover {
     background-color: dodgerblue;
     padding: 20px;
 }
+.nav ul { margin: 0; padding: 0;}
 .nav ul li { display: inline-block;}
 
 .footer {
