@@ -84,6 +84,7 @@ a:hover {
 .work-exprerience ul {}
 
 .work-exprerience ul li {
+    vertical-align: top;
     max-width: 400px;
     display: inline-block;
     padding: 15px;
