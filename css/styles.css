@@ -13,3 +13,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.header {
+    background-color: dodgerblue;
+    padding: 20px;
+}
+.nav ul li { display: inline-block;}
+
+.footer {
+    padding: 20px 0;
+    background-color: #f5f6fa;
+}
