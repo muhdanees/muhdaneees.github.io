@@ -6,6 +6,7 @@ body {
     background: #FFF;
     font-size: 13px;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 a {
     color: midnightblue;
@@ -17,6 +18,11 @@ a:hover {
     background-color: dodgerblue;
     padding: 20px;
 }
+.container { width: 1170px; margin: 0 auto;}
+
+.minddlecont { padding: 20px 0;}
+
+.footernav ul li { display: inline-block;}
 .nav ul { margin: 0; padding: 0;}
 .nav ul li { display: inline-block;}
 
