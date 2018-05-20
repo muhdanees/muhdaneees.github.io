@@ -17,6 +17,30 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
 h1,
 h2,
 h3,
@@ -33,7 +57,7 @@ h4,
 h5,
 h6,
 p {
-    margin: 0 0 15px 0;
+    margin: 0 0 12px 0;
 }
 
 address {
@@ -81,9 +105,20 @@ a:hover {
 }
 
 .rows label {
+    position: relative;
     line-height: 20px;
     min-width: 100px;
+    vertical-align: top;
     display: inline-block;
+}
+
+.rows label:after {
+    content: ":";
+    position: absolute;
+    right: 0;
+    top: 0px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .rows input,
@@ -96,6 +131,7 @@ a:hover {
 }
 
 .rows textarea {
+    font-family: 'Roboto', sans-serif;
     min-width: 280px;
 }
 
@@ -105,11 +141,12 @@ a:hover {
 
 .rows button {
     border: 4px solid #DDD;
-    margin-left: 100px;
+    margin-left: 104px;
     background: #FFF;
     line-height: 25px;
     padding: 0 10px;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .work-exprerience {
@@ -125,10 +162,23 @@ a:hover {
     border: 5px solid #DDD;
     margin: 0 0 20px 0;
     border-radius: 10px;
+    position: relative;
+}
+
+.work-exprerience ul li button {
+    border: 4px solid #DDD;
+    background: #FFF;
+    line-height: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: absolute;
+    bottom: -42px;
+    left: -5px;
 }
 
 .work-exprerience ul li .time {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footernav ul li {

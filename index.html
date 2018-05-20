@@ -35,14 +35,49 @@
                         <h4><a href="http://www.desimartini.com">www.desimartini.com</a></h4>
                         <address>18–20 Kasturba Gandhi Marg, New Delhi - 110001 , India.</address>
                         <address>11th Floor, Park Centra, Near DT Star Mall, Sector 30, Gurgaon, Haryana, India.</address>
+                        <button class="readmore" type="button">Read More</button>
                     </li>
-                    <li>
+                    <li style="display:none;">
                         <h2>UI/UX Developer</h2>
                         <h3>Cloudchowk Solutions Pvt.</h3>
-                        <div class="time"><time>April, 2015 – September, 2016</time></div>
+                        <div class="time"><time>April, 2015 to September, 2016</time></div>
                         <h4><a href="http://www.cloudchowk.com/">www.cloudchowk.com</a></h4>
                         <address>A - 31, Sector - 4, Ground Floor, & First Floor (Nearby Metro 16) Noida Up - 201301.</address>
                         <address>B-14, Basement, Lajpat Nagar III,  New Delhi - 110024.</address>
+                        <button class="readmore" type="button">Read More</button>
+                    </li>
+                    <li style="display:none;">
+                        <h2>UI/Web Designer</h2>
+                        <h3>A division of 360 Analytics & Advisory <span>Indian Petro Group</span></h3>
+                        <div class="time"><time>June, 2013 to April, 2015</time></div>
+                        <h4><a href="http://indianpetrochem.com/">www.indianpetrochem.com</a></h4>
+                        <address>118 - JP House, Second Floor, Shahpur Jat, (Near UCO Bank) New Delhi - 110049.</address>
+                        <button class="readmore" type="button">Read More</button>
+                    </li>
+                    <li style="display:none;">
+                        <h2>HTML Developer</h2>
+                        <h3>Oscillate Infotech</h3>
+                        <div class="time"><time>October, 2012 to June, 2013</time></div>
+                        <h4><a href="http://oscillateinfo.com/">www.oscillateinfo.com</a></h4>
+                        <address>B - 50, Gound Floor, Sec - 64, Noida - 201301.</address>
+                        <button class="readmore" type="button">Read More</button>
+                    </li>
+                    <li style="display:none;">
+                        <h2>Web Deisgner <span>(UI Designer)</span></h2>
+                        <h3>Makbog Solutions</h3>
+                        <div class="time"><time>May 2011 to October 11, 2012</time></div>
+                        <h4><a href="http://makbog.com/">www.makbog.com</a></h4>
+                        <address>B - 20, Lower Ground Floor, LSC at 2,4,20 MOR Land,  New Rajinder Nager, New Delhi - 110060.</address>
+                        <button class="readmore" type="button">Read More</button>
+                    </li>
+                    <li style="display:none;">
+                        <h2>Web Deisgner</h2>
+                        <h3>Modulus Systems Pvt.</h3>
+                        <div class="time"><time>March 2009 to April, 2011</time></div>
+                        <h4><a href="http://modulussystems.com">www.modulussystems.com</a></h4>
+                        <address>B - 158, LGF, Chittranjan Park, New Delhi - 110019.</address>
+                        <address>101-102,  White House 282, Sant Nagar, East of Kailash, New Delhi.</address>
+                        <button class="readless" type="button">Read Less</button>
                     </li>
                 </ul>
             </div>
@@ -52,19 +87,19 @@
                 <form id='foo'>
                     <div class="rows">
                         <label>Name</label>
-                        <input id='name' name='name' type='text'>
+                        <input id='name' name='name' type='text' placeholder="Name">
                     </div>
                     <div class="rows">
                         <label>Email Address</label>
-                        <input id='email' name='email' type='email'>
+                        <input id='email' name='email' type='email' placeholder="Email">
                     </div>
                     <div class="rows">
                         <label>Phone Number</label>
-                        <input id='phone' name='phone' type='tel'>
+                        <input id='phone' name='phone' type='tel' placeholder="Number">
                     </div>
                     <div class="rows">
                         <label>Message</label>
-                        <textarea id='message' name='message' rows='5'></textarea>
+                        <textarea id='message' name='message' rows='5' placeholder="Type your message here"></textarea>
                     </div>
                     <div id='success'></div>
                     <div class="rows">
@@ -75,6 +110,19 @@
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
                 <!-- Custom Theme JavaScript -->
                 <script src='/src/google-sheet.js'></script>
+                <script>
+                    $(document).ready(function() {
+                        $(".readmore").on("click", function() {
+                            $(this).hide();
+                            $(this).parent().next().show();
+                        });
+                        $(".readless").on("click", function() {
+                            $(this).parents("ul").find("li").hide();
+                            $(".work-exprerience ul li").first().show();
+                            $(".work-exprerience ul li").find("button").show();
+                        });
+                    });
+                </script>
             </div>
         </div>
     </div>
