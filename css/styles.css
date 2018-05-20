@@ -76,6 +76,42 @@ a:hover {
     padding: 20px;
 }
 
+.rows {
+    margin-bottom: 10px;
+}
+
+.rows label {
+    line-height: 20px;
+    min-width: 100px;
+    display: inline-block;
+}
+
+.rows input,
+.rows textarea {
+    padding: 2px 5px;
+    border-radius: 5px;
+    line-height: 20px;
+    border: 4px solid #DDD;
+    display: inline-block;
+}
+
+.rows textarea {
+    min-width: 280px;
+}
+
+.rows+#success {
+    font-size: 14px;
+}
+
+.rows button {
+    border: 4px solid #DDD;
+    margin-left: 100px;
+    background: #FFF;
+    line-height: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
 .work-exprerience {
     margin-top: 40px;
     margin-bottom: 50px;

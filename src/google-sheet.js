@@ -2,13 +2,13 @@
 var request;
 
 // Bind to the submit event of our form
-$("#foo").submit(function(event){
+$("#foo").submit(function(event) {
 
     // Abort any pending request
     if (request) {
         request.abort();
     }
-    
+
     // setup some local variables
     var $form = $(this);
 
@@ -32,26 +32,28 @@ $("#foo").submit(function(event){
     });
 
     // Callback handler that will be called on success
-    request.done(function (response, textStatus, jqXHR){
+    request.done(function(response, textStatus, jqXHR) {
         // Log a message to the console
         console.log("Hooray, it worked!");
         console.log(response);
         console.log(textStatus);
         console.log(jqXHR);
+
+        $form[0].reset();
     });
 
     // Callback handler that will be called on failure
-    request.fail(function (jqXHR, textStatus, errorThrown){
+    request.fail(function(jqXHR, textStatus, errorThrown) {
         // Log the error to the console
         console.error(
-            "The following error occurred: "+
+            "The following error occurred: " +
             textStatus, errorThrown
         );
     });
 
     // Callback handler that will be called regardless
     // if the request failed or succeeded
-    request.always(function () {
+    request.always(function() {
         // Reenable the inputs
         $inputs.prop("disabled", false);
     });
