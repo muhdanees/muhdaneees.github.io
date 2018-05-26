@@ -103,6 +103,10 @@ button:hover {
     color: rgb(255, 255, 255);
 }
 
+.codeplayer-logo a {
+    display: inline-block;
+}
+
 .top-header {
     background-color: rgb(27, 80, 131);
     color: rgba(150, 193, 216, 1);
