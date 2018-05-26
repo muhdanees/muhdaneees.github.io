@@ -108,10 +108,11 @@ button:hover {
 }
 
 .top-header {
+    min-height: 40px;
     background-color: rgb(27, 80, 131);
     color: rgba(150, 193, 216, 1);
-    line-height: 40px;
-    padding: 0 15px;
+    line-height: normal;
+    padding: 5px 15px;
 }
 
 .header {
