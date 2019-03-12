@@ -6,7 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>:: Home Page ::</title>
+
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src='/src/google-sheet.js'></script>
+    <script>
+
+        $(function () {
+            
+            $(".readmore").on("click", function() {
+                $(this).hide();
+                $(this).parent().next().show();
+            });
+            $(".readless").on("click", function() {
+                $(this).parents("ul").find("li").hide();
+                $(".work-exprerience ul li").first().show();
+                $(".work-exprerience ul li").find("button").show();
+            }); 
+
+            // $("#foo").on("submit", function(){
+
+            //     let name = document.getElementById("name").value;
+            //     let email = document.getElementById("email").value;
+            //     let phone = document.getElementById("phone").value;
+            //     let message = document.getElementById("message").value;
+
+            //     if(name==="" || email==="" || phone==="" || message===""){
+            //         alert("required");
+            //         return false;
+            //     }else{
+            //         return true;
+            //     }
+            // });
+
+        });
+        
+
+    </script>
+    
 </head>
 
 <body>
@@ -115,22 +157,6 @@
                     </div>
                 </form>
 
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-                <!-- Custom Theme JavaScript -->
-                <script src='/src/google-sheet.js'></script>
-                <script>
-                    $(document).ready(function() {
-                        $(".readmore").on("click", function() {
-                            $(this).hide();
-                            $(this).parent().next().show();
-                        });
-                        $(".readless").on("click", function() {
-                            $(this).parents("ul").find("li").hide();
-                            $(".work-exprerience ul li").first().show();
-                            $(".work-exprerience ul li").find("button").show();
-                        });
-                    });
-                </script>
             </div>
         </div>
     </div>
@@ -145,6 +171,10 @@
             </nav>
         </div>
     </div>
+
+
+    
+
 </body>
 
 </html>

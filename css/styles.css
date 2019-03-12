@@ -11,7 +11,7 @@
 
 body {
     color: #333;
-    background: #FFF;
+    background: #efefef;
     font-size: 13px;
     text-decoration: none;
     font-family: 'Roboto', Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
@@ -88,9 +88,8 @@ a:hover {
 }
 
 button {
-    border: 1px solid #DDD;
     background: #FFF;
-    border: 1px solid rgb(226, 223, 223);
+    border: 1px solid #f7f3f3;
     color: rgb(42, 160, 239);
     line-height: 35px;
     padding: 0 15px;
@@ -179,7 +178,7 @@ button:hover {
     padding: 2px 15px;
     border-radius: 5px;
     line-height: 31px;
-    border: 2px solid #DDD;
+    border: 0;
     display: inline-block;
 }
 
@@ -209,10 +208,11 @@ button:hover {
     display: inline-block;
     padding: 15px;
     padding-bottom: 35px;
-    border: 2px solid #DDD;
+    /* border: 2px solid #DDD; */
     margin: 0 0 20px 0;
     border-radius: 10px;
     position: relative;
+    background: #FFF;
 }
 
 .work-exprerience ul li button {
