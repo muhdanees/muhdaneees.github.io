@@ -103,12 +103,18 @@ button {
     line-height: 35px;
     padding: 0 15px;
     min-width: 100px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
 }
 
 button:hover {
     background-color: #4b7bc2;
     border-color: rgb(75, 123, 194);
     color: rgb(255, 255, 255);
+    border-radius: 22px !important;
 }
 
 .codeplayer-logo a {
@@ -160,6 +166,11 @@ button:hover {
 .minddlecont {
     padding: 20px;
 }
+.contact-us {
+    text-align: center;
+    background: #FFF;
+    padding: 20px;
+}
 
 .rows {
     margin-bottom: 10px;
@@ -187,7 +198,7 @@ button:hover {
     padding: 2px 15px;
     border-radius: 5px;
     line-height: 31px;
-    border: 0;
+    border: 1px solid #eae9e9;
     display: inline-block;
 }
 
@@ -210,11 +221,29 @@ button:hover {
     margin-top: 40px;
     margin-bottom: 50px;
 }
-
+.work-exprerience ul {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+.work-exprerience ul::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 49.8%;
+    width: 3px;
+    height: 100%;
+    background-color: #dbdde5;
+    z-index: 5;
+}
 .work-exprerience ul li {
+    width: 50%;
     vertical-align: top;
     max-width: 400px;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 15px;
     padding-bottom: 35px;
     /* border: 2px solid #DDD; */
@@ -222,6 +251,35 @@ button:hover {
     border-radius: 10px;
     position: relative;
     background: #FFF;
+    max-height: 280px;
+}
+.work-exprerience ul li::before {
+    right: -24px;
+    top: 34px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(247, 247, 247, 0);
+    border-left-color: #FFF;
+    border-width: 12px;
+    margin-top: -14px;
+}
+.work-exprerience ul li:nth-child(even)::before {
+    left: -22px;
+    top: 35px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(247, 247, 247, 0);
+    border-right-color: #FFF;
+    border-width: 12px;
+    margin-top: -14px;
 }
 
 .work-exprerience ul li button {
@@ -246,6 +304,26 @@ button:hover {
     margin-bottom: 10px;
 }
 
+
+.timeline-post-icon {
+    position: absolute;
+    right: 0;
+    background-color: #ccd0db;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: -45px;
+    z-index: 6;
+    margin-top: 10px;
+}
+.work-exprerience ul li:nth-child(even) {
+    margin-top: 100px;
+}
+.work-exprerience ul li:nth-child(even) span {
+    margin-left: -45px;
+    right: auto;
+    left: 0;
+}
 .footernav ul li {
     display: inline-block;
 }
