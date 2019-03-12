@@ -11,44 +11,6 @@
 
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src='/src/google-sheet.js'></script>
-    <script>
-
-        $(function () {
-            
-            $(".readmore").on("click", function() {
-                $(this).hide();
-                $(this).parent().next().show();
-            });
-            $(".readless").on("click", function() {
-                $(this).parents("ul").find("li").hide();
-                $(".work-exprerience ul li").first().show();
-                $(".work-exprerience ul li").find("button").show();
-            }); 
-
-            // $("#foo").on("submit", function(){
-
-            //     let name = document.getElementById("name").value;
-            //     let email = document.getElementById("email").value;
-            //     let phone = document.getElementById("phone").value;
-            //     let message = document.getElementById("message").value;
-
-            //     if(name==="" || email==="" || phone==="" || message===""){
-            //         alert("required");
-            //         return false;
-            //     }else{
-            //         return true;
-            //     }
-            // });
-
-        });
-        
-
-    </script>
-    
 </head>
 
 <body>
@@ -173,6 +135,42 @@
     </div>
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src='/src/google-sheet.js'></script>
+    <script>
+
+        $(function () {
+            
+            $(".readmore").on("click", function() {
+                $(this).hide();
+                $(this).parent().next().show();
+            });
+            $(".readless").on("click", function() {
+                $(this).parents("ul").find("li").hide();
+                $(".work-exprerience ul li").first().show();
+                $(".work-exprerience ul li").find("button").show();
+            }); 
+
+            // $("#foo").on("submit", function(){
+
+            //     let name = document.getElementById("name").value;
+            //     let email = document.getElementById("email").value;
+            //     let phone = document.getElementById("phone").value;
+            //     let message = document.getElementById("message").value;
+
+            //     if(name==="" || email==="" || phone==="" || message===""){
+            //         alert("required");
+            //         return false;
+            //     }else{
+            //         return true;
+            //     }
+            // });
+
+        });
+        
+
+    </script>
     
 
 </body>
