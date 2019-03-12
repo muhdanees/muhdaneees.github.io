@@ -96,6 +96,12 @@ a:hover {
     text-decoration: underline;
 }
 
+.sep {
+    background: url(../images/title-hline2.png) no-repeat center bottom;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
 button {
     background: #FFF;
     border: 1px solid #f7f3f3;
@@ -127,6 +133,7 @@ button:hover {
     color: rgba(150, 193, 216, 1);
     line-height: normal;
     padding: 10px 15px;
+    text-align: center;
 }
 
 .header {
@@ -161,6 +168,7 @@ button:hover {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .minddlecont {
@@ -170,6 +178,9 @@ button:hover {
     text-align: center;
     background: #FFF;
     padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 30px;
 }
 
 .rows {
@@ -227,6 +238,8 @@ button:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    max-width: 875px;
+    margin: 0 auto;
 }
 .work-exprerience ul::after {
     content: "";
@@ -240,6 +253,7 @@ button:hover {
     z-index: 5;
 }
 .work-exprerience ul li {
+    z-index: 6;
     width: 50%;
     vertical-align: top;
     max-width: 400px;
@@ -300,6 +314,14 @@ button:hover {
     color: #FFF;
 }
 
+.work-exprerience ul li h4 a {
+    background: #4b7bc2;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 12px;
+    padding: 0 10px 3px 10px;
+}
+
 .work-exprerience ul li .time {
     margin-bottom: 10px;
 }
@@ -336,4 +358,19 @@ button:hover {
 
 .footer a {
     color: rgb(161, 163, 164);
+}
+
+@media only screen and (max-width: 767px) {
+    .work-exprerience ul {
+        width: 100%;
+    }
+    .work-exprerience ul li {
+        width: 100%;
+        margin: 0 auto; 
+        margin-bottom: 20px;
+    }
+    .work-exprerience ul li:nth-child(even) {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 }
