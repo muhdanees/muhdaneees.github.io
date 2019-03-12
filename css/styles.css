@@ -65,6 +65,15 @@ address {
     margin-bottom: 5px;
 }
 
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+    color: #dc3545;
+} 
+
 h1 span,
 h2 span,
 h3 span,
@@ -80,7 +89,7 @@ p span {
 }
 
 a {
-    color: midnightblue;
+    color: #4b7bc2;
 }
 
 a:hover {
@@ -221,6 +230,16 @@ button:hover {
     position: absolute;
     bottom: -20px;
     left: 15px;
+}
+.work-exprerience ul li h3 {
+    background: #4b7bc2;
+    padding: 5px 10px;
+    margin: 0 -15px;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+.work-exprerience ul li h3 span {
+    color: #FFF;
 }
 
 .work-exprerience ul li .time {

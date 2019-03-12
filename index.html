@@ -36,7 +36,7 @@
     </div> -->
     <div class="minddlecont">
         <div class="container">
-            <h1>Work Experience</h1>
+            <h1>Work <strong>Experience</strong></h1>
             <p>I'm Mohd Anees I have 9+ years of industry experience in providing Web Design, Frontend Development, JavaScript & Jquery, User Interface Design, Responsive Website, Mobile Website with most usable enterprise Wide Applications.</p>
             <div class="work-exprerience">
                 <ul>
@@ -99,19 +99,19 @@
                 <form id='foo'>
                     <div class="rows">
                         <label>Name</label>
-                        <input id='name' name='name' type='text' placeholder="Name">
+                        <input id='name' name='name' required type='text' placeholder="Name">
                     </div>
                     <div class="rows">
                         <label>Email Address</label>
-                        <input id='email' name='email' type='email' placeholder="Email">
+                        <input id='email' name='email' required type='email' placeholder="Email">
                     </div>
                     <div class="rows">
                         <label>Phone Number</label>
-                        <input id='phone' name='phone' type='tel' placeholder="Number">
+                        <input id='phone' name='phone' required type='tel' placeholder="Number">
                     </div>
                     <div class="rows">
                         <label>Message</label>
-                        <textarea id='message' name='message' rows='5' placeholder="Type your message here"></textarea>
+                        <textarea id='message' name='message' required rows='5' placeholder="Type your message here"></textarea>
                     </div>
                     <div id='success'></div>
                     <div class="rows">
@@ -150,22 +150,7 @@
                 $(this).parents("ul").find("li").hide();
                 $(".work-exprerience ul li").first().show();
                 $(".work-exprerience ul li").find("button").show();
-            }); 
-
-            // $("#foo").on("submit", function(){
-
-            //     let name = document.getElementById("name").value;
-            //     let email = document.getElementById("email").value;
-            //     let phone = document.getElementById("phone").value;
-            //     let message = document.getElementById("message").value;
-
-            //     if(name==="" || email==="" || phone==="" || message===""){
-            //         alert("required");
-            //         return false;
-            //     }else{
-            //         return true;
-            //     }
-            // });
+            });
 
         });
         
