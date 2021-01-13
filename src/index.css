@@ -46,6 +46,7 @@ a {
 .container {
     margin: 0 auto;
     max-width: 73.13rem;
+    padding: 0 1.5rem;
 }
 .row-div {
     display: flex;
