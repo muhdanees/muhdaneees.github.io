@@ -1,3 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
+    background-color: #ddd;
     font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.875rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1.125rem;
+}
+p {
+    font-size: 0.875em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6, p:not(:last-child) {
+    margin: 0 0 15px 0;
+}
+a {
+    color: #1a73e8;
+}
+
+/* container */
+.container {
+    margin: 0 auto;
+    max-width: 73.13rem;
+}
+.row-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -1.5rem;
+}
+.row-div > div {
+    padding: 0 1.5rem;
 }

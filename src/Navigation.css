@@ -1,0 +1,25 @@
+.Navigation {
+    padding: .15rem 0 .1rem;
+    text-align: center;
+    background-color:  #1a73e8;
+}
+.Navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navigation li {
+    padding: 0;
+}
+.Navigation a {
+    font-weight: 600;
+    color: #FFF;
+    padding: .5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+}
+.Navigation a:hover {
+    background-color: #fff;
+    color: #1a73e8;
+}

@@ -1,10 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './Header';
+import Navigation from './Navigation';
+import About from './About';
 import "./index.css";
 
 const App = function (){
     return (
-        <div>www.codeplayer.in</div>
+        <>
+            <Header />
+            <Navigation />
+            <About />
+        </>
     )
 }
 

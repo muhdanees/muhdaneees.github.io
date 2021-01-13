@@ -1,0 +1,28 @@
+.About {
+    padding: 1.5rem 0;
+}
+.about-profile {
+    background-color: #fff;
+    display: flex;
+    align-items: end;
+    box-shadow: 0 0 0.25em rgba(0,0,0,0.25);
+    padding: 1rem;
+    border-radius: .25rem;
+    max-width: 35rem;
+}
+.name {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+.about-info {
+    padding: 0 0 0 1rem;
+}
+.profile {
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+.avtar {
+    max-width: 5rem;
+    border-radius: 1.25rem;
+}
