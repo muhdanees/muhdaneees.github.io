@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
 const App = function (){
     return (
-        <div>code player</div>
+        <div>www.codeplayer.in</div>
     )
 }
 
