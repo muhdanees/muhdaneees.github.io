@@ -83,7 +83,10 @@ a {
     font-weight: 600;
 }
 
-.Container { padding: 3rem 1rem;}
+.Container {
+    padding: 3rem 1rem;
+    box-sizing: border-box;
+}
 
 .sec { padding-left: 2rem; border-left: 1px solid #474841;}
 
