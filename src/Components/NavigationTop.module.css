@@ -1,0 +1,59 @@
+.Tabs { 
+  background-color: #6D6E6A;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.Tabs ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.List {
+  position: relative;
+  background-color: #42433D;
+  z-index: 1;
+  text-align: left;
+  min-width: 100px;
+  padding: .8rem .8rem;
+  margin: .25rem .1em 0 1.1em;
+  color: #FFF;
+  white-space: nowrap;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 2px 0px 50px #282922;
+}
+.ListActive {
+  background-color: #282922;
+  z-index: 2;
+}
+
+.List::after {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid #42433D;
+  border-left: 20px solid transparent;
+}
+
+.List::before {
+  content: '';
+  position: absolute;
+  right: -20px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid #42433D;
+  border-right: 20px solid transparent;
+}
+
+.ListActive::before,
+.ListActive::after {
+  border-bottom-color: #282922;
+}

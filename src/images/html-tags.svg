@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="196" height="265" viewBox="0 0 196 265">
+  <defs>
+    <clipPath id="clip-html-tags">
+      <rect width="196" height="265"/>
+    </clipPath>
+  </defs>
+  <g id="html-tags" clip-path="url(#clip-html-tags)">
+    <text id="_DOCTYPE_html_" data-name="&lt;!DOCTYPE html&gt;" transform="translate(0 21)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;!</tspan><tspan y="0" fill="#ff0871">DOCTYPE</tspan><tspan y="0" fill="#90918a"> </tspan><tspan y="0" fill="#b679ff">html</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_html_lang_eng_" data-name="&lt;html lang=“eng”&gt;" transform="translate(0 47)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;</tspan><tspan y="0" fill="#f9076d">html</tspan><tspan y="0" fill="#90918a"> </tspan><tspan y="0" fill="#8fe000">lang</tspan><tspan y="0">=</tspan><tspan y="0" fill="#dfd45e">“eng”</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_body_" data-name="&lt;body&gt;" transform="translate(0 98)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;</tspan><tspan y="0" fill="#f9076d">body</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_body_2" data-name="&lt;/body&gt;" transform="translate(74 99)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;/</tspan><tspan y="0" fill="#f9076d">body</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_h1_" data-name="&lt;h1&gt;" transform="translate(0 124)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;</tspan><tspan y="0" fill="#f9076d">h1</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_h1_2" data-name="&lt;/h1&gt;" transform="translate(53 124)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;/</tspan><tspan y="0" fill="#f9076d">h1</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_p_" data-name="&lt;p&gt;" transform="translate(0 150)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;</tspan><tspan y="0" fill="#f9076d">p</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_p_2" data-name="&lt;/p&gt;" transform="translate(41 150)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;/</tspan><tspan y="0" fill="#f9076d">p</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_button_type_submit_" data-name="&lt;button type=“submit”&gt;" transform="translate(0 176)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;</tspan><tspan y="0" fill="#f9076d">button</tspan><tspan y="0" fill="#90918a"> </tspan><tspan y="0" fill="#8fe000">type</tspan><tspan y="0">=</tspan><tspan y="0" fill="#dfd45e">“submit”</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_button_" data-name="&lt;/button&gt;" transform="translate(0 201)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;/</tspan><tspan y="0" fill="#f9076d">button</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_div_class_objective_" data-name="&lt;div class=“objective”&gt;" transform="translate(0 227)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;</tspan><tspan y="0" fill="#f9076d">div </tspan><tspan y="0" fill="#8fe000">class</tspan><tspan y="0">=</tspan><tspan y="0" fill="#dfd45e">“objective”</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_div_" data-name="&lt;/div&gt;" transform="translate(0 253)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;/</tspan><tspan y="0" fill="#f9076d">div</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_html_" data-name="&lt;/html&gt;" transform="translate(0 73)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">&lt;/</tspan><tspan y="0" fill="#f9076d">html</tspan><tspan y="0">&gt;</tspan></text>
+  </g>
+</svg>
