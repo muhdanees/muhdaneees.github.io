@@ -22,7 +22,7 @@
     box-sizing: border-box;
 }
 .Nav a span { margin-right: 1rem;}
-.Nav a:hover, .Nav li.active a { 
+.Nav a:hover, .NavActive { 
     color: #FE5F58; 
     background: #ccc;
 }
