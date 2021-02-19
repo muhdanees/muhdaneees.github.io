@@ -70,20 +70,33 @@ a {
 .Header {
     min-height: 50px;
     padding: 2rem 0;
-    background-color: rgba(235,237,239, .1);
+    background-color: rgb(14 52 90 / 85%);
+    position: relative;
+}
+.Header::before {
+    background: url(./images/about-bg.jpg) no-repeat left center;
+    background-size: cover;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 .Logo {
-    background-color: #FE5F58;
+    background-color: #FF9800;
     padding: 0 .85rem;
     line-height: 30px;
     border-radius: 20px;
     z-index: 1;
 }
 .Logo a {
-    color: #760101;
+    color: #4C4C4C;
     text-decoration: none;
     font-weight: 600;
+    text-shadow: 0px 0px black;
 }
 
 .Container {

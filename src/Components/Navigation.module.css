@@ -19,7 +19,7 @@
 }
 .Nav a span { margin-right: .5rem;}
 .Nav a:hover, .Nav a.NavActive { 
-    color: #FE5F58; 
+    color: #FF9800; 
 }
 /* min width 767 - ipad/desktop */
 @media screen and (min-width: 767px) {  }
