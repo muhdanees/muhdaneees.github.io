@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import NavigationSide from "./Components/NavigationSide";
-import NavigationTop from "./Components/NavigationTop";
+// import NavigationTop from "./Components/NavigationTop";
 import "./index.css";
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
         <div className="Codeplayer">
             <div className="Header">
                 <div className="Logo"><a href="./">Codeplayer</a></div>
-                <NavigationTop />
+                {/* <NavigationTop /> */}
                 <NavigationSide />
             </div>
             <div className="editorlines">
@@ -33,18 +33,16 @@ const App = () => {
                 <span>18</span>
             </div>
             <div className="Container">
-                <div className="docStart"></div>
-                <div className="html">
-                    <div class="body">
-                        <h1 className="h1">
+                {/* <div className="docStart"></div> */}
+                {/* <div className="html"></div> */}
+                <div class="body">
+                        <h1>
                             Hi, I’m Mohd Anees
                         </h1>
-                        <div className="working">Working in HT Media Limited as <strong>Front-end Developer</strong></div>
+                        <div>Working in HT Media Limited as <strong>Front-end Developer</strong></div>
                         <p>11+ Years of Industry experience in providing User Interface Designing/Development  with most usable enterprise wide applications. Described as the Education of websites,  UI Developers are responsible for writing the code that lives behind every webpage.  Using their creativity and technical knowledge, they plan, build and maintain the structure of a website.</p>
-                        {/* <button type="button">Contact me!</button> */}
                         <a href="./contact-us/" className="contact-us">Contact me!</a>
                     </div>
-                </div>
 
             </div>
         </div>
