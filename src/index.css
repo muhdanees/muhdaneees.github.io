@@ -15,12 +15,6 @@ button {
     margin: 0;
     padding: 0;
     border: none;
-    background-color: transparent;
-    font-size: 2rem;
-    cursor: pointer;
-}
-div {
-    margin-bottom: 1rem;
 }
 button:focus {
     outline: none;
@@ -59,25 +53,31 @@ a {
 
 
 #root { height: 100%;}
-#root .Codeplayer { height: 100%;}
 .Codeplayer {
-    display: flex;
     margin: 0 auto;
 }
 
+.AboutInfo { padding: 0;}
 
+.InfoSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
 .Header {
     min-height: 50px;
+    padding: 2rem 0;
+    background-color: rgba(235,237,239, .1);
 }
+
 .Logo {
     background-color: #FE5F58;
-    padding: 0 20px;
+    padding: 0 .85rem;
     line-height: 30px;
     border-radius: 20px;
-    
-    position: absolute;
-    left: 1rem;
-    top: 1rem;
     z-index: 1;
 }
 .Logo a {
@@ -87,17 +87,15 @@ a {
 }
 
 .Container {
-    padding: 3rem 1rem;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 1rem 0rem;
     box-sizing: border-box;
 }
 
-.sec { padding-left: 2rem; border-left: 1px solid #474841;}
+.Work-postion { margin-bottom: 1rem;}
+.Work-postion svg { margin-right: .5rem;}
 
-.editorlines { height: 100%; padding: 3rem 1rem; box-sizing: border-box;}
-.editorlines span { 
-    min-height: 20px;
-    line-height: 1.5rem;
-    display: block;
-    color: #656363;
-    font-size: .85rem;
-}
+.SocialNet { display: flex; justify-content: space-between; align-items: center; margin-bottom: 3rem;}
+
+.Clientele { display: flex; justify-content: space-between;}

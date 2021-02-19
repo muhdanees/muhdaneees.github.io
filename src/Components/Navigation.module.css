@@ -1,0 +1,25 @@
+.Nav { 
+    box-sizing: border-box;
+}
+.Nav ul {
+    list-style: none;
+    display: flex;
+}
+.Nav li { text-align: right;} 
+.Nav svg { min-width: 20px; text-align: center;}
+.Nav a {
+    padding: 0 1rem;
+    line-height: 1.5rem;
+    display: inline-block;
+    font-size: .85rem;
+    text-decoration: none;
+    color: #777;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Nav a span { margin-right: .5rem;}
+.Nav a:hover, .Nav a.NavActive { 
+    color: #FE5F58; 
+}
+/* min width 767 - ipad/desktop */
+@media screen and (min-width: 767px) {  }
