@@ -1,0 +1,125 @@
+@import './sass/variables';
+@import './sass/mixins';
+@import './sass/functions';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body { height: 100%;}
+body {
+    background-color: $heavy_metal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: $alto;
+    text-decoration: none;
+    line-height: 1.4rem;
+}
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+button:focus {
+    outline: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.875rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1.125rem;
+}
+p {
+    font-size: 0.875em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6, p:not(:last-child) {
+    margin: 0 0 15px 0;
+}
+a {
+    color: $royal_blue;
+}
+
+
+#root { height: 100%;}
+.Codeplayer {
+    background: url('./images/bg.svg') no-repeat center;
+    margin: 0 auto;
+    height: 100%;
+    background-size: cover;
+}
+
+.AboutInfo { padding: 1rem;}
+
+.InfoSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+.Header {
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.Logo {
+    z-index: 1;
+}
+.Logo a span { visibility: hidden;}
+
+.Container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.Work-postion { 
+    margin-top: -.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: $mariner;
+}
+.Work-postion svg { margin-right: .5rem;}
+
+.home-icon svg { font-size: 2rem;}
+
+.about-me {
+    max-width: 200px;
+    border-radius: 50%;
+    border: .5rem solid $mariner;
+    margin-bottom: 2rem;
+}
+.btn {
+    text-align: center;
+    line-height: 4rem;
+    padding: .85rem 2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+}
+.primary {
+    background: $white;
+    color: $mariner;
+}
+.btn svg { margin-right: .5rem;}

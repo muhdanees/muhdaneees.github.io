@@ -1,19 +1,21 @@
 .Nav { 
     box-sizing: border-box;
+    right: 0;
+    position: absolute;
+    top: 0;
+    margin-right: -100%;
 }
 .Nav ul {
     list-style: none;
-    display: flex;
 }
 .Nav li { text-align: right;} 
 .Nav svg { min-width: 20px; text-align: center;}
 .Nav a {
-    padding: 0 1rem;
     line-height: 1.5rem;
     display: inline-block;
     font-size: .85rem;
     text-decoration: none;
-    color: #777;
+    color: #FFF;
     width: 100%;
     box-sizing: border-box;
 }
