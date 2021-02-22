@@ -9,7 +9,7 @@ import {
   faEnvelope,
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
-import Styles from "./Navigation.module.css";
+import Styles from "./Navigation.module.scss";
 
 const Navigation = [
   {

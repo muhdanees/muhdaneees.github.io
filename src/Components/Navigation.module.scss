@@ -1,12 +1,22 @@
+@import '../sass/variables';
+@import '../sass/mixins';
+@import '../sass/functions';
 .Nav { 
     box-sizing: border-box;
     right: 0;
     position: absolute;
     top: 0;
     margin-right: -100%;
+    @media screen and (min-width: 767px) { 
+        position: relative;
+        .Nav { margin-right: 0;}
+    }
 }
 .Nav ul {
     list-style: none;
+    @media only screen and (min-width: 768px) {
+        display: flex;
+    }
 }
 .Nav li { text-align: right;} 
 .Nav svg { min-width: 20px; text-align: center;}
@@ -18,10 +28,11 @@
     color: #FFF;
     width: 100%;
     box-sizing: border-box;
+    @media screen and (min-width: 767px) {
+        color: $heavy_metal;
+    }
 }
 .Nav a span { margin-right: .5rem;}
 .Nav a:hover, .Nav a.NavActive { 
     color: #FF9800; 
 }
-/* min width 767 - ipad/desktop */
-@media screen and (min-width: 767px) {  }
