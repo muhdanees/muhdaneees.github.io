@@ -2,37 +2,77 @@
 @import '../sass/mixins';
 @import '../sass/functions';
 .Nav { 
-    box-sizing: border-box;
-    right: 0;
-    position: absolute;
+    right: -100%;
+    position: fixed;
     top: 0;
-    margin-right: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba($color: $black, $alpha: .5);
+    @media only screen and (min-width: 768px) {
+        background: transparent;
+        right: 0;
+    }
+    ul {
+        list-style: none;
+        height: 100%;
+        max-width: 10rem;
+        background-color: $white;
+        margin-left: auto;
+        padding-top: 2rem;
+        li { 
+            text-align: right;
+            margin: 0 .5rem 0 1rem;
+        } 
+        @media only screen and (min-width: 768px) {
+            display: flex;
+            margin-left: 0;
+            background: transparent;
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+            justify-content: center;
+        }
+    }
+    a {
+        line-height: 1.5rem;
+        display: flex;
+        justify-content: flex-end;
+        font-size: .85rem;
+        text-decoration: none;
+        width: 100%;
+        padding-right: .85rem;
+        span { 
+            margin-left: .5rem;
+            margin-right: .5rem;
+            white-space: nowrap;
+            @media screen and (min-width: 767px) {
+                order: 2;
+            }
+        }
+        @media screen and (min-width: 767px) {
+            padding: 0;
+        }
+        &.NavActive,
+        &:hover {
+            color: #FF9800; 
+            border-right: .2rem solid #FF9800;
+            @media screen and (min-width: 767px) {
+                border: none;
+                border-bottom: .2rem solid #FF9800;
+            } 
+        }
+        @media screen and (min-width: 767px) {
+            color: $heavy_metal;
+        }
+        svg { 
+            min-width: 20px; 
+            text-align: center;
+            margin-top: .3rem;
+        }
+    }
     @media screen and (min-width: 767px) { 
         position: relative;
         .Nav { margin-right: 0;}
     }
-}
-.Nav ul {
-    list-style: none;
-    @media only screen and (min-width: 768px) {
-        display: flex;
-    }
-}
-.Nav li { text-align: right;} 
-.Nav svg { min-width: 20px; text-align: center;}
-.Nav a {
-    line-height: 1.5rem;
-    display: inline-block;
-    font-size: .85rem;
-    text-decoration: none;
-    color: #FFF;
-    width: 100%;
-    box-sizing: border-box;
-    @media screen and (min-width: 767px) {
-        color: $heavy_metal;
-    }
-}
-.Nav a span { margin-right: .5rem;}
-.Nav a:hover, .Nav a.NavActive { 
-    color: #FF9800; 
 }

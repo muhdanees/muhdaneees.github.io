@@ -5,16 +5,20 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html, body { height: 100%;}
 body {
     background-color: $white;
     font-family: 'Roboto', sans-serif;
-    font-size: 100%;
+    font-size: 120%;
     font-weight: 400;
     color: $alto;
     text-decoration: none;
     line-height: 1.4rem;
+    @media only screen and (min-width: 768px) {
+        color: $heavy_metal;
+    }
 }
 button {
     margin: 0;
@@ -27,6 +31,7 @@ button:focus {
 
 h1 {
     font-size: 2.5rem;
+    text-transform: uppercase;
 }
 h2 {
     font-size: 2rem;
@@ -55,13 +60,14 @@ h1, h2, h3, h4, h5, h6, p:not(:last-child) {
 a {
     color: $royal_blue;
 }
-
-
 #root { height: 100%;}
-.Codeplayer {
+.codeplayer {
     position: relative;
-    margin: 0 auto;
-    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     &::after {
         background: url('./images/bg.svg') no-repeat center;
         background-size: cover;
@@ -80,68 +86,125 @@ a {
         }
     }
 }
-
-.AboutInfo { padding: 1rem;}
-
-.InfoSec {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+.header {
+    width: 100%;
+    padding: 0 2rem;
+    .main-logo {
+        z-index: 1;
+        a {
+            span {
+                visibility: hidden;
+            }
+        }
+        .logo-desktop { 
+            display: none;
+            @media only screen and (min-width: 768px) {
+                display: block;
+            }
+        }
+        .logo-mobile { 
+            @media only screen and (min-width: 768px) {
+                display: none;
+            }
+        }
+    }   
+}
+.social-icons {
+    display: none;
+    ul {
+        list-style: none;
+        display: flex;
+        li {
+            margin: 0 .5rem;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        display: block;
+    }
+}
+.container {
     max-width: 1170px;
     margin: 0 auto;
-    position: relative;
+    padding: 1rem 0rem;
+    text-align: center;
+    @media only screen and (min-width: 768px) {
+        text-align: left;
+    }
+}
+.flex-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    @media only screen and (min-width: 768px) {
+        flex-direction: row-reverse;
+    }
+    .sec-divs {
+        @media only screen and (min-width: 768px) {
+            max-width: 50%;
+            h1 {
+                color: $mariner;
+            }
+        }
+    }
+}
+.sec-skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+        list-style: none;
+    }
+    .home-skills {
+        display: none;
+        margin: 0 2rem;
+        li {
+            line-height: 2rem;
+            color: $alto;
+        }
+        @media only screen and (min-width: 768px) {
+            display: block;
+        }
+    }
+}
+.infoSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
     .home-icon {
         svg { font-size: 2rem;}
         @media only screen and (min-width: 768px) {
             display: none;
         }
     }
-    @media only screen and (min-width: 768px) {
-        justify-content: flex-start;
+    // @media only screen and (min-width: 768px) {
+    //     justify-content: flex-start;
+    // }
+}
+
+.about-section {
+    padding: 0 2rem;
+    .about-me {
+        max-width: 15rem;
+        border-radius: 50%;
+        border: .5rem solid $alto;
+        margin: 4rem 0;
+        overflow: hidden;
+        @media only screen and (min-width: 768px) {
+            max-width: 20rem;
+        }
     }
-}
-.Header {
-    padding: 2rem;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.Logo {
-    z-index: 1;
-}
-.Logo a span { visibility: hidden;}
-
-.Container {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 1rem 0rem;
-    box-sizing: border-box;
-    text-align: center;
-    @media only screen and (min-width: 768px) {
-        text-align: left;
+    .Work-postion { 
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        color: $mariner;
+        svg { margin-right: .5rem;}
     }
 }
 
-.Work-postion { 
-    margin-top: -.2rem;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    color: $mariner;
-    svg { margin-right: .5rem;}
-}
-
-
-.about-me {
-    max-width: 200px;
-    border-radius: 50%;
-    border: .5rem solid $mariner;
-    margin: 4rem 0 2rem;
-}
 .btn {
     text-align: center;
     line-height: 4rem;
@@ -149,13 +212,18 @@ a {
     text-decoration: none;
     border-radius: 25px;
     font-weight: 600;
+    svg { margin-right: .5rem;}
+    &.primary {
+        background: $white;
+        color: $mariner;
+        &:hover {
+            background-color: $mariner;
+            color: $white;
+        }
+    }
     @media only screen and (min-width: 768px) {
         border:1px solid $mariner;
         color: $mariner;
     }
 }
-.primary {
-    background: $white;
-    color: $mariner;
-}
-.btn svg { margin-right: .5rem;}
+

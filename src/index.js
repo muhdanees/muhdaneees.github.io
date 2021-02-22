@@ -21,19 +21,29 @@ const App = () => {
       <React.StrictMode>
         <>
             <Router>
-                <div className="Codeplayer">
-                    <div className="Header">
-                        <div className="InfoSec">
-                            <div className="Logo">
-                                <Link to="./">
-                                    <img src='/mini-logo.svg' alt="" />
-                                    <span>Codeplayer</span>
-                                </Link>
+                <div className="codeplayer">
+                    <div className="header">
+                        <div className="container">
+                            <div className="infoSec">
+                                <div className="main-logo">
+                                    <Link to="./">
+                                        <img className="logo-mobile" src='/mini-logo.svg' alt="" />
+                                        <img className="logo-desktop" src='/codeplayer_logo.svg' alt="" />
+                                    </Link>
+                                </div>
+                                <div className="home-icon">
+                                    <FontAwesomeIcon icon={faBars} />
+                                </div>
+                                <NavigationSide />
+                                <div className="social-icons">
+                                    <ul>
+                                        <li>linkedin</li>
+                                        <li>github</li>
+                                        <li>twitter</li>
+                                        <li>facebook</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div className="home-icon">
-                                <FontAwesomeIcon icon={faBars} />
-                            </div>
-                            <NavigationSide />
                         </div>
                     </div>
                     <Switch>
