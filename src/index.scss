@@ -20,10 +20,21 @@ body {
         color: $heavy_metal;
     }
 }
+a,
 button {
     margin: 0;
     padding: 0;
     border: none;
+
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+}
+a {
+    color: $mariner;
 }
 button:focus {
     outline: none;
@@ -32,6 +43,7 @@ button:focus {
 h1 {
     font-size: 2.5rem;
     text-transform: uppercase;
+    line-height: 2.5rem;
 }
 h2 {
     font-size: 2rem;
@@ -57,9 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6, p:not(:last-child) {
     margin: 0 0 15px 0;
 }
-a {
-    color: $royal_blue;
-}
+
 #root { height: 100%;}
 .codeplayer {
     position: relative;
@@ -125,7 +135,7 @@ a {
 .container {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 1rem 0rem;
+    padding: 2rem 0rem;
     text-align: center;
     @media only screen and (min-width: 768px) {
         text-align: left;
@@ -136,6 +146,7 @@ a {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    padding-top: 0rem;
     @media only screen and (min-width: 768px) {
         flex-direction: row-reverse;
     }
@@ -143,7 +154,7 @@ a {
         @media only screen and (min-width: 768px) {
             max-width: 50%;
             h1 {
-                color: $mariner;
+                color: $heavy_metal;
             }
         }
     }
@@ -187,13 +198,20 @@ a {
 .about-section {
     padding: 0 2rem;
     .about-me {
+        background: $mariner;
         max-width: 15rem;
         border-radius: 50%;
-        border: .5rem solid $alto;
-        margin: 4rem 0;
+        margin: 1rem;
+        padding: 1rem;
         overflow: hidden;
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
         @media only screen and (min-width: 768px) {
             max-width: 20rem;
+            margin: 4rem 0;
+            background: linear-gradient(to right, $white, $mariner);
         }
     }
     .Work-postion { 
@@ -207,11 +225,14 @@ a {
 
 .btn {
     text-align: center;
-    line-height: 4rem;
-    padding: .85rem 2rem;
+    padding: .55rem 1rem .5rem;
     text-decoration: none;
     border-radius: 25px;
     font-weight: 600;
+    font-size: 1rem;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
     svg { margin-right: .5rem;}
     &.primary {
         background: $white;
@@ -220,10 +241,22 @@ a {
             background-color: $mariner;
             color: $white;
         }
+        @media only screen and (min-width: 768px) {
+            border:1px solid $mariner;
+            color: $mariner;
+        }
     }
-    @media only screen and (min-width: 768px) {
-        border:1px solid $mariner;
+    &.secondary {
+        background: $white;
         color: $mariner;
+        &:hover {
+            background-color: $tundora;
+            color: $white;
+        }
+        @media only screen and (min-width: 768px) {
+            border:1px solid $tundora;
+            color: $tundora;
+        }
     }
 }
 

@@ -13,6 +13,8 @@ import NavigationSide from "./Components/Navigation";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faTwitter, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
 
 import "./index.scss";
 
@@ -37,10 +39,14 @@ const App = () => {
                                 <NavigationSide />
                                 <div className="social-icons">
                                     <ul>
-                                        <li>linkedin</li>
-                                        <li>github</li>
-                                        <li>twitter</li>
-                                        <li>facebook</li>
+                                        <li>
+                                            <Link to="./">
+                                                <FontAwesomeIcon icon={faLinkedin} />
+                                            </Link>
+                                        </li>
+                                        <li><FontAwesomeIcon icon={faGithub} /></li>
+                                        <li><FontAwesomeIcon icon={faTwitter} /></li>
+                                        <li><FontAwesomeIcon icon={faFacebook} /></li>
                                     </ul>
                                 </div>
                             </div>

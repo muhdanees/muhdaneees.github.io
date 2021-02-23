@@ -50,29 +50,32 @@
                 order: 2;
             }
         }
+        svg { 
+            min-width: 20px; 
+            text-align: center;
+            margin-top: .3rem;
+            @media screen and (min-width: 767px) {
+                display: none;
+            }
+        }
         @media screen and (min-width: 767px) {
             padding: 0;
         }
         &.NavActive,
         &:hover {
-            color: #FF9800; 
-            border-right: .2rem solid #FF9800;
+            color: $orange_peel; 
+            border-right: .2rem solid $orange_peel;
             @media screen and (min-width: 767px) {
                 border: none;
-                border-bottom: .2rem solid #FF9800;
+                border-bottom: .2rem solid $orange_peel;
             } 
         }
         @media screen and (min-width: 767px) {
             color: $heavy_metal;
         }
-        svg { 
-            min-width: 20px; 
-            text-align: center;
-            margin-top: .3rem;
-        }
     }
     @media screen and (min-width: 767px) { 
         position: relative;
-        .Nav { margin-right: 0;}
+        margin-right: 0;
     }
 }
