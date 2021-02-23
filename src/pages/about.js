@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 function About() {
   return (
     <div className="content">
@@ -14,6 +16,7 @@ function About() {
                 <p>The objective of each project is to capitalize on the latest technologies and achieve a highly optimized end product. I am always keen on experimenting with different platforms and frameworks.</p>
 
                 <p>I specialize in front-end development and like to learn new technologies like AMP is an open-source library, <strong>BEM</strong> for naming convention, <strong>GitHub</strong> for code hosting, <strong>SVN</strong> Subversion open source version control system, Liquid for templating and <strong>CSS</strong> Pre-processors <strong>SCSS</strong>, <strong>SASS</strong>, <strong>LESS</strong> and <strong>Stylus</strong> scripting language of CSS.</p>
+                <a href="./skills/" className="btn primary"><FontAwesomeIcon icon={faBriefcase} />know more...</a>
             </div>
         </div>
     </div>

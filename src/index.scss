@@ -33,12 +33,27 @@ button {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    line-height: 1.8rem;
 }
 a {
     color: $mariner;
 }
 button:focus {
     outline: none;
+}
+input,
+textarea {
+    border: none;
+    padding: .5rem 1.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.8rem;
+    color: $tundora;
+    font-family: 'Roboto', sans-serif;
+    @media only screen and (min-width: 768px) {
+        border: 1px solid $alto;
+    }
 }
 
 h1 {
@@ -154,6 +169,7 @@ h1, h2, h3, h4, h5, h6, p:not(:last-child) {
 }
 .content {
     padding: 2rem;
+    width: 100%;
     h2 {
         position: relative;
         margin-bottom: 2rem;
@@ -182,8 +198,11 @@ h1, h2, h3, h4, h5, h6, p:not(:last-child) {
     padding-top: 0rem;
     @media only screen and (min-width: 768px) {
         flex-direction: row-reverse;
+        justify-content: space-between;
     }
     .sec-divs {
+        width: 100%;
+        padding-right: 2rem;
         @media only screen and (min-width: 768px) {
             h1 {
                 color: $heavy_metal;
@@ -195,7 +214,9 @@ h1, h2, h3, h4, h5, h6, p:not(:last-child) {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-left: 2rem;
+    @media only screen and (min-width: 768px) {
+        padding-left: 0rem;
+    }
     ul {
         list-style: none;
     }
@@ -229,19 +250,21 @@ h1, h2, h3, h4, h5, h6, p:not(:last-child) {
     // }
 }
 .about-me {
-    background: $mariner;
+    background: linear-gradient(to right, $white, $mariner);
     border-radius: 50%;
-    margin: 1rem;
+    margin-bottom: 1rem;
     padding: 1rem;
     overflow: hidden;
+    max-width: 250px;
     img {
         width: 100%;
         border-radius: 50%;
+        display: block;
     }
     @media only screen and (min-width: 768px) {
+        max-width: 500px;
         margin: 4rem 0;
         flex-basis: 400px;
-        background: linear-gradient(to right, $white, $mariner);
     }
 }
 .about-section {
@@ -257,7 +280,7 @@ h1, h2, h3, h4, h5, h6, p:not(:last-child) {
 
 .btn {
     text-align: center;
-    padding: .55rem 1rem .5rem;
+    padding: .55rem 1.5rem .5rem;
     text-decoration: none;
     border-radius: 25px;
     font-weight: 600;
@@ -299,4 +322,28 @@ ul.tech-skills {
         margin-bottom: 2rem;
     }
 }
+hr { 
+    margin-bottom: 1rem; height: 1px; border: none; 
+    background-color: $mariner;
+    @media only screen and (min-width: 768px) {
+        background-color: $alto;
+    }
+}
 
+.address-info {
+    margin-top: 2rem;
+    color: $mariner;
+}
+.formelement { 
+    width: 100%;
+    ul {
+        list-style: none;
+        display: flex;
+        li {
+            flex-shrink: 0;
+        }
+    }
+    input, textarea {
+        width: 100%;
+    }
+}
