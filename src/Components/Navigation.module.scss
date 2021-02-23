@@ -16,10 +16,25 @@
     ul {
         list-style: none;
         height: 100%;
-        max-width: 10rem;
+        max-width: 18rem;
         background-color: $white;
         margin-left: auto;
-        padding-top: 2rem;
+        padding-top: 3rem;
+        position: relative;
+        &::before {
+            content: '+';
+            color: $mariner;
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: 3rem;
+            display: inline-block;
+            transform: rotate(45deg);
+            width: 2.1rem;
+            height: 2rem;
+            text-align: center;
+            line-height: 2rem;
+        }
         @media only screen and (min-width: 768px) {
             display: flex;
             margin-left: 0;
@@ -33,20 +48,20 @@
 
     li { 
         text-align: right;
-        margin: 0 .5rem 0 1rem;
+        margin: 0 1.5rem 0;
     }
 
     a {
-        line-height: 1.5rem;
+        line-height: 2.5rem;
         display: flex;
         justify-content: flex-end;
-        font-size: .85rem;
+        font-size: 1rem;
         text-decoration: none;
         width: 100%;
-        padding-right: .85rem;
+        padding-right: 1rem;
         span { 
-            margin-left: .5rem;
-            margin-right: .5rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
             white-space: nowrap;
             @media screen and (min-width: 767px) {
                 order: 2;
@@ -55,7 +70,7 @@
         svg { 
             min-width: 20px; 
             text-align: center;
-            margin-top: .3rem;
+            margin-top: .7rem;
             @media screen and (min-width: 767px) {
                 display: none;
             }
