@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 
@@ -13,12 +13,13 @@ import NavigationSide from "./Components/Navigation";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faTwitter, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-
+import Social from "./Components/Social";
 
 import "./index.scss";
 
 const App = () => {
+    const [openMenu, setOpenMenu] = useState(false);
+
     return (
       <React.StrictMode>
         <>
@@ -33,22 +34,11 @@ const App = () => {
                                         <img className="logo-desktop" src='/codeplayer_logo.svg' alt="" />
                                     </Link>
                                 </div>
-                                <div className="home-icon">
+                                <button className="home-icon" onClick={e => setOpenMenu(true)}>
                                     <FontAwesomeIcon icon={faBars} />
-                                </div>
-                                <NavigationSide />
-                                <div className="social-icons">
-                                    <ul>
-                                        <li>
-                                            <Link to="./">
-                                                <FontAwesomeIcon icon={faLinkedin} />
-                                            </Link>
-                                        </li>
-                                        <li><FontAwesomeIcon icon={faGithub} /></li>
-                                        <li><FontAwesomeIcon icon={faTwitter} /></li>
-                                        <li><FontAwesomeIcon icon={faFacebook} /></li>
-                                    </ul>
-                                </div>
+                                </button>
+                                <NavigationSide isOpen={openMenu} onClick={setOpenMenu} />
+                                <Social />
                             </div>
                         </div>
                     </div>

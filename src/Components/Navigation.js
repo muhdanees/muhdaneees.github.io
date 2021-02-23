@@ -44,9 +44,14 @@ const Navigation = [
   },
 ];
 
-function NavigationSide() {
+function NavigationSide({ isOpen, onClick }) {
+  const menuClick = (e) => {
+    e.stopPropagation();
+    onClick(false)
+  }
+
   return (
-    <div className={`${Styles.Nav}`}>
+    <div className={`${Styles.Nav} ${ isOpen ? Styles.OpenNav: '' }`} onClick={menuClick}>
       <ul>
         {Navigation.map(({ path, name, icon }) => (
           <li key={name}>
