@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, p:not(:last-child) {
         position: fixed;
         @media only screen and (min-width: 768px) {
             background-position: right top;
-            width: 30%;
+            width: 20%;
             left: auto;
             right: 0;
         }
@@ -286,8 +286,12 @@ h1, h2, h3, h4, h5, h6, p:not(:last-child) {
     font-weight: 600;
     font-size: 1rem;
     display: inline-block;
-    margin-right: 1rem;
     margin-bottom: 2rem;
+
+    + .btn {
+        margin-left: 1rem;
+    }
+
     svg { margin-right: .5rem;}
     &.primary {
         background: $white;

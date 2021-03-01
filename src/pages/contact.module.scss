@@ -1,0 +1,38 @@
+.Form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.FormCol {
+  flex: 0 0 100%;
+}
+
+.FormLabel {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.FormLabelCol {
+  flex: 0 0 100%;
+
+  @media (min-width: 768px) {
+    flex: 0 0 50%;
+
+    &:first-child {
+      padding-right: 10px;
+    }
+  
+    &:last-child {
+      padding-left: 10px;
+    }
+  }
+}
+
+.FormControl {
+  width: 100%;
+}
+
+.SubContainer {
+  text-align: right;
+}
