@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarker, faLocationArrow } from "@fortawesome/free-solid-svg-icons";
+import { PageContext } from "../PageContext";
 import styles from "./contact.module.scss";
+
 function Contact() {
+  const { setPageState } = useContext(PageContext)
+
+  useEffect(() => {
+    setPageState("about")
+  }, [setPageState])
+
   return (
     <div className="content">
         <div className="container flex-cont">
