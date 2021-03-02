@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { useContext, useEffect } from "react";
+import { PageContext } from "../PageContext";
 
 const skills = [
   {
@@ -44,6 +46,14 @@ function Lists() {
   )
 }
 function Home() {
+
+  const { setPageState } = useContext(PageContext)
+
+  useEffect(() => {
+    setPageState("home")
+  }, [setPageState])
+
+
   return (
     <>
         <div className="about-section">

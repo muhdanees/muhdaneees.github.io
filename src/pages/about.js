@@ -1,6 +1,15 @@
+import { useContext, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { PageContext } from "../PageContext";
+
 function About() {
+  const { setPageState } = useContext(PageContext)
+
+  useEffect(() => {
+    setPageState("about")
+  }, [setPageState])
+
   return (
     <div className="content">
         <div className="container flex-cont">

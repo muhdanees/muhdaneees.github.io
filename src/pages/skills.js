@@ -1,4 +1,13 @@
+import { useContext, useEffect } from "react";
+import { PageContext } from "../PageContext";
+
 function Skills() {
+  const { setPageState } = useContext(PageContext)
+
+  useEffect(() => {
+    setPageState("skills")
+  }, [setPageState])
+
   return (
     <div className="content">
         <div className="container flex-cont">

@@ -10,6 +10,7 @@ import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
 
 import NavigationSide from "./Components/Navigation";
+import { PageContext } from "./PageContext";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -19,12 +20,13 @@ import "./index.scss";
 
 const App = () => {
     const [openMenu, setOpenMenu] = useState(false);
+    const [pageState, setPageState] = useState("home");
 
     return (
       <React.StrictMode>
-        <>
+        <PageContext.Provider value={{ setPageState }}>
             <Router>
-                <div className="codeplayer">
+                <div className={`codeplayer ${pageState}`}>
                     <div className="header">
                         <div className="container">
                             <div className="infoSec">
@@ -52,7 +54,7 @@ const App = () => {
                     </Switch>
                 </div>
             </Router>
-        </>
+        </PageContext.Provider>
       </React.StrictMode>
     )
 }
