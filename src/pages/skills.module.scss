@@ -38,7 +38,7 @@
                 display: block;
                 width: 100%;
             }
-            a {
+            span {
                 font-size: 1rem;
                 text-decoration: none;
                 color: $white;
@@ -64,6 +64,23 @@
                 bottom: 0;
             }
         }
+    }
+}
+.projectDetails {
+    padding: 2rem;
+    h3 {
+        font-size: 1.3rem;
+    }
+    a {
+        font-size: 1rem;
+    }
+    ul {
+        margin-top: 1rem;
+        list-style: none;
+    }
+    li {
+        margin-bottom: .8rem;
+        font-size: 1rem;
     }
 }
 
