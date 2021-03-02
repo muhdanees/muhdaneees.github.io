@@ -1,14 +1,10 @@
-<<<<<<< Updated upstream
 import { useContext, useEffect } from "react";
-import { PageContext } from "../PageContext";
-
-=======
-import React from "react";
 import { Link } from "react-router-dom"
+import { PageContext } from "../PageContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRetweet} from "@fortawesome/free-solid-svg-icons";
 import styles from "./skills.module.scss";
->>>>>>> Stashed changes
+
 function Portfolio() {
   const { setPageState } = useContext(PageContext)
 
