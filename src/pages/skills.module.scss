@@ -16,7 +16,18 @@
         flex-wrap: wrap;
         .Item {
             flex-basis: 32%;
+
+            -webkit-box-shadow: 0 0 6px 0 rgba($tundora, .5rem);
+            -moz-box-shadow: 0 0 6px 0 rgba($tundora, .5rem);
+            -o-box-shadow: 0 0 6px 0 rgba($tundora, 16.5rem);
+            box-shadow: 0 0 6px 0 rgba($tundora, .5rem);
+            -webkit-border-radius: .2rem;
+            -moz-border-radius: .2rem;
+            -o-border-radius: .2rem;
             border-radius: .2rem;
+
+            transition: all 0.5s ease;
+
             margin-bottom: 1rem;
             cursor: pointer;
             overflow: hidden;
@@ -41,12 +52,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                color: $white;
-                background: rgba($black, $alpha: .85);
+                color: $black;
+                background: rgba($white, $alpha: .95);
                 font-size: 1.5rem;
             }
             button {
-                color: $white;
+                color: $black;
                 margin-left: .5rem;
             }
             &:hover .hoverItem {
