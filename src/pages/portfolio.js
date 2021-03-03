@@ -145,7 +145,7 @@ function Portfolio() {
                         </li>
                       </ul>
                       <p>
-                        <strong>Tools:</strong> VS Code, Zeplin, HighCharts for
+                        <strong>Tools:</strong> VS Code, Zeplin,  GIT, HighCharts for
                         charts making
                       </p>
                     </div>
@@ -190,7 +190,7 @@ function Portfolio() {
                         </li>
                       </ul>
                       <p>
-                        <strong>Tools:</strong> Sublime Text 3, Photoshop
+                        <strong>Tools:</strong> Sublime Text 3, Photoshop, GIT
                       </p>
                     </div>
                   </Popup>
@@ -668,6 +668,8 @@ function Portfolio() {
                           designed this logo for this organisation before joined
                           this company
                         </li>
+                        <li>I useed to work on wordpress as well in this organisation.</li>
+                        <li>I have completed lots of project becuase its a service based company</li>
                       </ul>
                       <p>
                         <strong>Tools:</strong> Dreamviewer, Photoshop,
