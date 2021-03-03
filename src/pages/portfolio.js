@@ -71,7 +71,7 @@ function Portfolio() {
                           <strong>CSS3</strong>, <strong>SCSS/LESS</strong>,{" "}
                           <strong>Flexbox</strong>, <strong>Grid</strong>,{" "}
                           <strong>JavaScript</strong>, <strong>jQuery</strong>,{" "}
-                          <strong>Responsive</strong> etc.
+                          <strong>Responsive</strong> <strong>GIT</strong> from starting etc.
                         </li>
                         <li>
                           A desired to work in a fast-paced and challenging
@@ -109,7 +109,7 @@ function Portfolio() {
                         </li>
                       </ul>
                       <p>
-                        <strong>Tools:</strong> VS Code, Zeplin
+                        <strong>Tools:</strong> VS Code, Zeplin, GIT
                       </p>
                     </div>
                   </Popup>
