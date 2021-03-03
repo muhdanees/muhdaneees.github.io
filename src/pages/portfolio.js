@@ -25,8 +25,7 @@ function Portfolio() {
         <div className="sec-divs">
           <h2>Portfolio</h2>
           <p>
-            A front-end developer with having versatile ability to solve lots of
-            things along with 8 years of great industry experience.
+            A front-end developer with having good ability for solving Quickly things along with 10+ years of great industry experience.
           </p>
           <p>
             I have diverse experience as I have worked with agencies and brands
