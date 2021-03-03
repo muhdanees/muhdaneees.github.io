@@ -107,7 +107,7 @@ function Portfolio() {
                           on <strong>Mobile</strong> and{" "}
                           <strong>Desktop</strong>.
                         </li>
-                        <li>As you know its a media company so time to time things happenes like elections and third party ads as well on our website alos lots of widgets and AMP Story pages too.</li>
+                        <li>As you know its a <strong>media company</strong> so time to time things happenes like elections and third party <strong>ads</strong> as well on our website alos lots of <strong>widgets</strong> and AMP <strong>Story</strong> pages too.</li>
                       </ul>
                       <p>
                         <strong>Tools:</strong> VS Code, Zeplin, GIT
