@@ -9,6 +9,7 @@
     height: 100%;
     z-index: 1;
     background: rgba($color: $black, $alpha: .5);
+    flex-basis: 50%;
     @media only screen and (min-width: 768px) {
         background: transparent;
         right: 0;
@@ -51,7 +52,6 @@
 
     li { 
         text-align: right;
-        margin: 0 1.5rem 0;
     }
 
     a {

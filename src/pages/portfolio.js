@@ -55,6 +55,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.hindustantimes.com</h3>
                       <a
                         href="https://www.hindustantimes.com/"
@@ -124,6 +125,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.livehindustan.com</h3>
                       <a
                         href="https://www.livehindustan.com/"
@@ -159,6 +161,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.desimartini.com</h3>
                       <a
                         href="https://www.desimartini.com/"
@@ -202,6 +205,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.dfurnishingdreamz.com</h3>
                       <a
                         href="http://www.dfurnishingdreamz.com/"
@@ -237,6 +241,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.dfurnishingdreamz.com</h3>
                       <a
                         href="http://www.fincalci.com/"
@@ -269,6 +274,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.4squarepromotions.com</h3>
                       <a
                         href="http://4squarepromotions.com/"
@@ -301,6 +307,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.dmagnuslighting.com</h3>
                       <a
                         href="http://www.dmagnuslighting.com/"
@@ -333,6 +340,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.Zureka.in</h3>
                       <a
                         href="http://www.Zureka.in/"
@@ -373,6 +381,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>crm.healthscion.com</h3>
                       <a
                         href="https://crm.healthscion.com/"
@@ -406,6 +415,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>admin.ipgprojects.com</h3>
                       <a
                         href="https://admin.ipgprojects.com/"
@@ -439,6 +449,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.energylineindia.com/</h3>
                       <a
                         href="https://www.energylineindia.com/"
@@ -479,6 +490,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.indianpetrochem.com</h3>
                       <a
                         href="https://indianpetrochem.com/"
@@ -519,6 +531,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.excelaccessconsultant.com</h3>
                       <a
                         href="https://excelaccessconsultant.com/"
@@ -554,6 +567,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.access-programmer.org</h3>
                       <a
                         href="http://www.access-programmer.org/"
@@ -589,6 +603,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.sesi.in</h3>
                       <a
                         href="https://www.sesi.in/"
@@ -637,6 +652,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.makbog.com</h3>
                       <a
                         href="http://makbog.com/"
@@ -671,6 +687,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                    <button className={styles.close}></button>
                       <h3>www.samaywatch.com</h3>
                       <a
                         href="http://www.samaywatch.com/"
@@ -713,6 +730,7 @@ function Portfolio() {
                     modal
                   >
                     <div className={styles.projectDetails}>
+                      <button className={styles.close}></button>
                       <h3>www.link.org.in</h3>
                       <a
                         href="http://www.link.org.in/"
