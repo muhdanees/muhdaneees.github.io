@@ -11,6 +11,9 @@
         margin: 0;
         padding: 0 1rem .5rem;
         cursor: pointer;
+        &.active {
+            font-weight: 600;
+        }
     }
     .FolioCont {
         display: flex;
@@ -18,18 +21,9 @@
         flex-wrap: wrap;
         .Item {
             flex-basis: 100%;
-
-            -webkit-box-shadow: 0 0 6px 0 rgba($tundora, .5rem);
-            -moz-box-shadow: 0 0 6px 0 rgba($tundora, .5rem);
-            -o-box-shadow: 0 0 6px 0 rgba($tundora, 16.5rem);
             box-shadow: 0 0 6px 0 rgba($tundora, .5rem);
-            -webkit-border-radius: .2rem;
-            -moz-border-radius: .2rem;
-            -o-border-radius: .2rem;
             border-radius: .2rem;
-
             transition: all 0.5s ease;
-
             margin-bottom: 1rem;
             cursor: pointer;
             overflow: hidden;
@@ -70,6 +64,7 @@
             }
             &:hover .hoverItem {
                 bottom: 0;
+                transition: all 0.5s ease;
             }
         }
     }

@@ -28,21 +28,18 @@ function Portfolio() {
             A front-end developer with having good ability for solving Quickly things along with 10+ years of great industry experience.
           </p>
           <p>
-            I have diverse experience as I have worked with agencies and brands
-            dealing in different industries. This includes Enterprise software
-            companies, Media houses, Branding and Advertising agencies. Each has
-            its own set of challenges and learnings. This has enabled me to
-            venture into unknown territories without much thought.
+          I have worked diffirent type of companies Advertise Company, Media House, digital news, software developement and subscription developemt. every company has diffirent mind set because of different critaria but have learned according to the companies.
           </p>
+          
           <div className={styles.Portfolio}>
-            <ul>
+            {/* <ul>
               <li className="active">All</li>
               <li>HTML5/CSS3</li>
               <li>Logos</li>
               <li>Template Designs</li>
               <li>AMP</li>
               <li>Widgets</li>
-            </ul>
+            </ul> */}
             <div className={styles.FolioCont}>
               <div className={styles.Item}>
                 <img src="/hindustantimes.jpg" alt="" />
@@ -65,46 +62,29 @@ function Portfolio() {
                       </a>
                       <ul>
                         <li>
-                          Fundamental knowledge of application development using
-                          technology like <strong>HTML5</strong>,{" "}
-                          <strong>CSS3</strong>, <strong>SCSS/LESS</strong>,{" "}
-                          <strong>Flexbox</strong>, <strong>Grid</strong>,{" "}
-                          <strong>JavaScript</strong>, <strong>jQuery</strong>,{" "}
-                          <strong>Responsive</strong> <strong>GIT</strong> from starting etc.
+                          Fundamental knowledge of application development using technology like <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>SCSS/LESS</strong>, <strong>Flexbox</strong>, <strong>Grid</strong>, <strong>JavaScript</strong>, <strong>jQuery</strong>, <strong>Responsive</strong> <strong>GIT</strong> from starting etc.
                         </li>
                         <li>
                           A desired to work in a fast-paced and challenging
                           environment as I am working here.
                         </li>
                         <li>
-                          <strong>Wrote clean</strong>, <strong>modular</strong>{" "}
-                          web-based <strong>SAAS</strong> applications in an
-                          agile and <strong>ever-changing</strong> environment
-                          in this project which I have completed and working on
-                          widgets and sections
+                          <strong>Wrote clean</strong>, <strong>modular</strong> web-based <strong>SAAS</strong> applications in an agile and <strong>ever-changing</strong> environment in this project which I have completed and working on widgets and sections
                         </li>
                         <li>
-                          <strong>Debug</strong>, and refactor existing
-                          applications and software modules as required Quickly
-                          respond to <strong>critical support</strong> issues in
-                          digital media project.
+                          <strong>Debug</strong>, and refactor existing applications and software modules as required Quickly respond to <strong>critical support</strong> issues in digital media project.
                         </li>
                         <li>
-                          Work with Software Architect to understand coding{" "}
-                          <strong>standards</strong> and{" "}
-                          <strong>architectural</strong> practices
+                          Work with Software Architect to understand coding <strong>standards</strong> and <strong>architectural</strong> practices
                         </li>
                         <li>
                           <strong>Assist</strong> Other Sr. Engineers with other
                           tasks as allined.
                         </li>
                         <li>
-                          Develop highly interactive web applications utilizing{" "}
-                          <strong>JavaScript</strong>, <strong>HTML5</strong>,{" "}
-                          <strong>CSS3(SCSS/functions/mixins/variables)</strong>
+                          Develop highly interactive web applications utilizing <strong>JavaScript</strong>, <strong>HTML5</strong>, <strong>CSS3(SCSS/functions/mixins/variables)</strong>
                           , and external web services ensuring high performance
-                          on <strong>Mobile</strong> and{" "}
-                          <strong>Desktop</strong>.
+                          on <strong>Mobile</strong> and <strong>Desktop</strong>.
                         </li>
                         <li>As you know its a <strong>media company</strong> so time to time things happenes like elections and third party <strong>ads</strong> as well on our website alos lots of <strong>widgets</strong> and AMP <strong>Story</strong> pages too.</li>
                       </ul>
