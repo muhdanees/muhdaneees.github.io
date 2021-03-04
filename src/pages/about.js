@@ -20,11 +20,12 @@ function About() {
             </div>
             <div className="sec-divs">
                 <h2>About Us</h2>
-                <p>Hi, I am <strong>Mohd Anees</strong> with a great attitude to introduce you to Creativity and Crazy world. Passionate thinking with <strong>10+</strong> years of experience in Front End Development from New Delhi India.</p>
 
-                <p>The objective of each project is to capitalize on the latest technologies and achieve a highly optimized end product. I am always keen on experimenting with different platforms and frameworks.</p>
+                <p>Hi, This is Mohd Anees wanna say about me something.</p>
+                <p>Building state of the art, easy to use, user-friendly website and applications is turly a passion of mind and I am confident I would and excelemt addition to your organization. In addition to my knowledge base, I actively seek out new technologies and stay up-to-date on industry trnds and advancements. This ahse allowed me to saty ahead o the curve and deliver exceptional work to all of my employers, Including those I have workidn for on a project basis.</p>
 
-                <p>I specialize in front-end development and like to learn new technologies like AMP is an open-source library, <strong>BEM</strong> for naming convention, <strong>GitHub</strong> for code hosting, <strong>SVN</strong> Subversion open source version control system, Liquid for templating and <strong>CSS</strong> Pre-processors <strong>SCSS</strong>, <strong>SASS</strong>, <strong>LESS</strong> and <strong>Stylus</strong> scripting language of CSS.</p>
+                <p>I have attched a copy of my resume detailing my experience, along with links to website and companies I have had the honor of working on. on the home page <a href="mailto:https://www.codeplayer.in/">www.codeplayer.in</a></p>
+
                 <a href="./skills/" className="btn primary"><FontAwesomeIcon icon={faBriefcase} />know more...</a>
             </div>
         </div>

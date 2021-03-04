@@ -17,7 +17,7 @@ function Experience() {
                 </div>
             </div>
             <div className="sec-divs">
-              <h2>Experience Page</h2>
+              <h2>Experience</h2>
               <ul className="tech-skills mb0">
                 <li>
                   <strong>Hindustan Time Media</strong>
