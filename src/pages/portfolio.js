@@ -72,11 +72,11 @@ function Portfolio() {
                         <ul>
                           <li>
                             Fundamental knowledge of application development
-                            using technology like <strong>HTML5</strong>,{" "}
-                            <strong>CSS3</strong>, <strong>SCSS/LESS</strong>,{" "}
-                            <strong>Flexbox</strong>, <strong>Grid</strong>,{" "}
+                            using technology like <strong>HTML5</strong>,
+                            <strong>CSS3</strong>, <strong>SCSS/LESS</strong>,
+                            <strong>Flexbox</strong>, <strong>Grid</strong>,
                             <strong>JavaScript</strong>, <strong>jQuery</strong>
-                            , <strong>Responsive</strong> <strong>GIT</strong>{" "}
+                            , <strong>Responsive</strong> <strong>GIT</strong>
                             from starting etc.
                           </li>
                           <li>
@@ -84,9 +84,9 @@ function Portfolio() {
                             environment as I am working here.
                           </li>
                           <li>
-                            <strong>Wrote clean</strong>,{" "}
-                            <strong>modular</strong> web-based{" "}
-                            <strong>SAAS</strong> applications in an agile and{" "}
+                            <strong>Wrote clean</strong>,
+                            <strong>modular</strong> web-based
+                            <strong>SAAS</strong> applications in an agile and
                             <strong>ever-changing</strong> environment in this
                             project which I have completed and working on
                             widgets and sections
@@ -94,12 +94,12 @@ function Portfolio() {
                           <li>
                             <strong>Debug</strong>, and refactor existing
                             applications and software modules as required
-                            Quickly respond to <strong>critical support</strong>{" "}
+                            Quickly respond to <strong>critical support</strong>
                             issues in digital media project.
                           </li>
                           <li>
-                            Work with Software Architect to understand coding{" "}
-                            <strong>standards</strong> and{" "}
+                            Work with Software Architect to understand coding
+                            <strong>standards</strong> and
                             <strong>architectural</strong> practices
                           </li>
                           <li>
@@ -108,13 +108,13 @@ function Portfolio() {
                           </li>
                           <li>
                             Develop highly interactive web applications
-                            utilizing <strong>JavaScript</strong>,{" "}
-                            <strong>HTML5</strong>,{" "}
+                            utilizing <strong>JavaScript</strong>,
+                            <strong>HTML5</strong>,
                             <strong>
                               CSS3(SCSS/functions/mixins/variables)
                             </strong>
                             , and external web services ensuring high
-                            performance on <strong>Mobile</strong> and{" "}
+                            performance on <strong>Mobile</strong> and
                             <strong>Desktop</strong>.
                           </li>
                           <li>
@@ -211,7 +211,7 @@ function Portfolio() {
                         <ul>
                           <li>
                             Worked started on this project when i joned this
-                            organisation{" "}
+                            organisation
                             <strong>(Hindustan Times Media)</strong>
                           </li>
                           <li>
@@ -774,7 +774,7 @@ function Portfolio() {
                             that time, not still running...
                           </li>
                           <li>
-                            check this design in the section of Portfolio{" "}
+                            check this design in the section of Portfolio
                             <a href="http://makbog.com/">http://makbog.com</a>.
                             I was working in this organisation that time (Makbod
                             Solutions Pvt ltd.)
@@ -889,8 +889,8 @@ function Portfolio() {
                           <li>
                             I was working that time in Modulus Systems Private
                             Limited as Webn Designer. But you can check this
-                            design in section of Portfolio{" "}
-                            <a href="http://makbog.com/">http://makbog.com</a>{" "}
+                            design in section of Portfolio
+                            <a href="http://makbog.com/">http://makbog.com</a>
                             which was my second company.
                           </li>
                         </ul>
