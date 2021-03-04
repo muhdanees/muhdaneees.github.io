@@ -13,7 +13,7 @@ function Skills() {
         <div className="container flex-cont">
             <div className="sec-skills">
                 <div className="about-me">
-                  <img src='/about-bg.jpg' alt="" />
+                <img src="/about-me.jpg" alt="Mohd Anees" />
                 </div>
             </div>
             <div className="sec-divs">
