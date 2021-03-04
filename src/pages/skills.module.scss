@@ -1,116 +1,116 @@
-@import '../sass/variables';
+@import "../sass/variables";
 .Portfolio {
-    ul {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+  li {
+    margin: 0;
+    padding: 0 1rem 0.5rem;
+    cursor: pointer;
+    &.active {
+      font-weight: 600;
+    }
+  }
+  .FolioCont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .Item {
+      flex-basis: 100%;
+      box-shadow: 0 0 6px 0 rgba($tundora, 0.5rem);
+      border-radius: 0.2rem;
+      transition: all 0.5s ease;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      overflow: hidden;
+      text-align: center;
+      position: relative;
+      background-color: $mariner;
+      @media (min-width: 768px) {
+        flex-basis: 48%;
+      }
+      @media only screen and (min-width: 992px) {
+        flex-basis: 32%;
+      }
+      img {
+        display: block;
+        width: 100%;
+      }
+      span {
+        font-size: 1rem;
+        text-decoration: none;
+        color: $white;
+      }
+      .hoverItem {
+        position: absolute;
+        left: 0;
+        bottom: -100%;
+        width: 100%;
+        height: 100%;
         display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        list-style: none;
-        margin-bottom: 1rem;
+        align-items: center;
+        justify-content: center;
+        color: $black;
+        background: rgba($white, $alpha: 0.95);
+        transition: all 0.5s ease;
+        font-size: 1.5rem;
+      }
+      button {
+        color: $black;
+        margin-left: 0.5rem;
+      }
+      &:hover .hoverItem {
+        bottom: 0;
+        transition: all 0.5s ease;
+      }
     }
-    li {
-        margin: 0;
-        padding: 0 1rem .5rem;
-        cursor: pointer;
-        &.active {
-            font-weight: 600;
-        }
-    }
-    .FolioCont {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        .Item {
-            flex-basis: 100%;
-            box-shadow: 0 0 6px 0 rgba($tundora, .5rem);
-            border-radius: .2rem;
-            transition: all 0.5s ease;
-            margin-bottom: 1rem;
-            cursor: pointer;
-            overflow: hidden;
-            text-align: center;
-            position: relative;
-            background-color: $mariner;
-            @media (min-width: 768px) {
-                flex-basis: 48%;
-            }
-            @media only screen and (min-width: 992px) {
-                flex-basis: 32%;
-            }
-            img {
-                display: block;
-                width: 100%;
-            }
-            span {
-                font-size: 1rem;
-                text-decoration: none;
-                color: $white;
-            }
-            .hoverItem {
-                position: absolute;
-                left: 0;
-                bottom: -100%;
-                width: 100%;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: $black;
-                background: rgba($white, $alpha: .95);
-                font-size: 1.5rem;
-            }
-            button {
-                color: $black;
-                margin-left: .5rem;
-            }
-            &:hover .hoverItem {
-                bottom: 0;
-                transition: all 0.5s ease;
-            }
-        }
-    }
+  }
 }
 .projectDetails {
-    padding: 2rem;
-    position: relative;
-    button.close {
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        transform: rotate(45deg);
-        &::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            background: $alto;
-            position: absolute;
-            left: 46%;
-            top: 0;
-        }
-        &::after {
-            content: '';
-            width: 100%;
-            height: 2px;
-            background: $alto;
-            position: absolute;
-            left: 0;
-            top: 47%;
-        }
+  padding: 2rem;
+  position: relative;
+  button.close {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transform: rotate(45deg);
+    &::before {
+      content: "";
+      width: 2px;
+      height: 100%;
+      background: $alto;
+      position: absolute;
+      left: 46%;
+      top: 0;
     }
-    h3 {
-        font-size: 1.3rem;
+    &::after {
+      content: "";
+      width: 100%;
+      height: 2px;
+      background: $alto;
+      position: absolute;
+      left: 0;
+      top: 47%;
     }
-    a {
-        font-size: 1rem;
-    }
-    ul {
-        margin-top: 1rem;
-        list-style: none;
-    }
-    li {
-        margin-bottom: .8rem;
-        font-size: 1rem;
-    }
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  a {
+    font-size: 1rem;
+  }
+  ul {
+    margin-top: 1rem;
+    list-style: none;
+  }
+  li {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+  }
 }
-
