@@ -68,7 +68,7 @@ function Home() {
                     <h1>Mohd Anees</h1>
                     <div className="Work-postion">Front-end Developer</div>
                     <p><strong>11+</strong> Years of Industry experience in providing User Interface Designing/Development  with most usable enterprise wide applications. Described as the Education of websites,  UI Developers are responsible for writing the code that lives behind every webpage.  Using their creativity and technical knowledge, they plan, build and maintain the structure of a website.</p>
-                    <a href="./contact-us/" className="btn primary"><FontAwesomeIcon icon={faDownload} /> Download CV</a>
+                    <a href="/mohd-anees-resume.pdf" target="_blank" className="btn primary"><FontAwesomeIcon icon={faDownload} /> Download CV</a>
                     {/* <a href="./contact-us/" className="btn secondary"><FontAwesomeIcon icon={faToolbox} /> Experience</a> */}
                 </div>
             </div>
