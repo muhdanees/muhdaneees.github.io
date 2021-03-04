@@ -62,24 +62,12 @@ function Skills() {
                   <p>HTML5 is not only use for web app but also in mobile apps, we can easy developed hybrid mobile apps in html5.</p>
                 </li>
                 <li>
-                  <strong>PSD to Wordpress</strong>
-                  <p>PSD to WordPress conversion and Theme Integration, customization, create manage widgets and plugins.</p>
-                </li>
-                <li>
-                  <strong>PSD to Joomla</strong>
-                  <p>PSD to Joomla conversion and Integrate theme &amp; customize, create manage modules, components and plugins.</p>
-                </li>
-                <li>
                   <strong>Web Layouts Design</strong>
                   <p>Web layout design, Grid layout design, Mockup design, Banner design, Prototyping, Slicing PSD and convert in to HTML5.</p>
                 </li>
                 <li>
                   <strong>PSD to Wordpress</strong>
                   <p>PSD to WordPress conversion and Theme Integration, customization, create manage widgets and plugins.</p>
-                </li>
-                <li>
-                  <strong>PSD to Joomla</strong>
-                  <p>PSD to Joomla conversion and Integrate theme &amp; customize, create manage modules, components and plugins.</p>
                 </li>
               </ul>
             </div>

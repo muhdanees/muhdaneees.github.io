@@ -19,7 +19,7 @@ function Portfolio() {
       <div className="container flex-cont">
         <div className="sec-skills">
           <div className="about-me">
-            <img src="/about-bg.jpg" alt="" />
+            <img src="/about-me.jpg" alt="" />
           </div>
         </div>
         <div className="sec-divs">

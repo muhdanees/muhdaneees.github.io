@@ -346,8 +346,25 @@ ul {
 
 ul.tech-skills {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     li {
+        background-color: $white;
+        // max-width: 48%;
+        flex-basis: 100%;
         margin-bottom: 2rem;
+        box-shadow: 0px 0px 6px $alto;
+        border-radius: 3px;
+        padding: 1rem;
+        color: $tundora;
+        strong {
+            margin-bottom: .4rem;
+            display: inline-block;
+        }
+        @media only screen and (min-width: 768px) {
+            flex-basis: 48%;
+        }
     }
 }
 hr { 
