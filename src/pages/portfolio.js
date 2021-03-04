@@ -109,7 +109,10 @@ function Portfolio() {
                         <li>As you know its a <strong>media company</strong> so time to time things happenes like elections and third party <strong>ads</strong> as well on our website alos lots of <strong>widgets</strong> and AMP <strong>Story</strong> pages too.</li>
                       </ul>
                       <p>
-                        <strong>Tools:</strong> VS Code, Zeplin, GIT
+                        <strong>Technology:</strong> HTML5, CSS3, Flexbox, SASS, RWD, Grid Systems, JavaScript, jQuery etc.
+                      </p>
+                      <p>
+                        <strong>Tools:</strong> VS Code, Zeplin, GIT, Jira
                       </p>
                     </div>
                   </Popup>
@@ -144,7 +147,10 @@ function Portfolio() {
                         </li>
                       </ul>
                       <p>
-                        <strong>Tools:</strong> VS Code, Zeplin,  GIT, HighCharts for
+                        <strong>Technology:</strong> HTML5, CSS3, Flexbox, RWD, Grid Systems, JavaScript, jQuery etc.
+                      </p>
+                      <p>
+                        <strong>Tools:</strong> VS Code, Zeplin, Jira, GIT, HighCharts for
                         charts making
                       </p>
                     </div>
@@ -189,6 +195,9 @@ function Portfolio() {
                         </li>
                       </ul>
                       <p>
+                        <strong>Technology:</strong> HTML5, CSS3, Flexbox, SASS, RWD, Grid Systems, JavaScript, jQuery etc.
+                      </p>
+                      <p>
                         <strong>Tools:</strong> Sublime Text 3, Photoshop, GIT
                       </p>
                     </div>
@@ -225,6 +234,9 @@ function Portfolio() {
                         </li>
                       </ul>
                       <p>
+                        <strong>Technology:</strong> HTML5, CSS3, Flexbox, RWD, Grid Systems, jQuery etc.
+                      </p>
+                      <p>
                         <strong>Tools:</strong> VS Code, Adobe XD
                       </p>
                     </div>
@@ -258,6 +270,9 @@ function Portfolio() {
                         <li>RWD with Bootstrap 4</li>
                       </ul>
                       <p>
+                        <strong>Technology:</strong> HTML5, CSS3, Flexbox, RWD, Grid Systems, JavaScript, jQuery etc.
+                      </p>
+                      <p>
                         <strong>Tools:</strong> VS Code, Adobe XD
                       </p>
                     </div>
@@ -290,6 +305,9 @@ function Portfolio() {
                           design too.
                         </li>
                       </ul>
+                      <p>
+                        <strong>Technology:</strong> Grid Systems for Better prototype
+                      </p>
                       <p>
                         <strong>Tools:</strong> Illustrator, Adobe XD
                       </p>
@@ -364,6 +382,9 @@ function Portfolio() {
                         </li>
                       </ul>
                       <p>
+                        <strong>Technology:</strong> HTML5, CSS3, RWD, Grid Systems, jQuery etc.
+                      </p>
+                      <p>
                         <strong>Tools:</strong> Sublime Text 3, Dreamviewer,
                         Notepad++, Photoshop
                       </p>
@@ -398,6 +419,9 @@ function Portfolio() {
                         <li>worked with .Net developers in this project</li>
                       </ul>
                       <p>
+                        <strong>Technology:</strong> HTML5, CSS3, jQuery etc.
+                      </p>
+                      <p>
                         <strong>Tools:</strong> Sublime Text 3, Dreamviewer,
                         Notepad++
                       </p>
@@ -431,6 +455,9 @@ function Portfolio() {
                         </li>
                         <li>I didn't now about LifeRay before worked on it.</li>
                       </ul>
+                      <p>
+                        <strong>Technology:</strong> HTML5, CSS3, jQuery etc.
+                      </p>
                       <p>
                         <strong>Tools:</strong> Dreamviewer, Photoshop,
                         Notepad++, LifeRay
@@ -473,6 +500,9 @@ function Portfolio() {
                         </li>
                       </ul>
                       <p>
+                        <strong>Technology:</strong> HTML5, CSS3, jQuery etc.
+                      </p>
+                      <p>
                         <strong>Tools:</strong> Dreamviewer, Photoshop,
                         Notepad++, LifeRay
                       </p>
@@ -514,6 +544,9 @@ function Portfolio() {
                         </li>
                       </ul>
                       <p>
+                        <strong>Technology:</strong> HTML5, CSS3, jQuery etc.
+                      </p>
+                      <p>
                         <strong>Tools:</strong> Dreamviewer, Photoshop,
                         Notepad++, LifeRay
                       </p>
@@ -548,6 +581,9 @@ function Portfolio() {
                         </li>
                         <li>I started work RWD from this time</li>
                       </ul>
+                      <p>
+                        <strong>Technology:</strong> HTML5, CSS3, RWD, jQuery etc.
+                      </p>
                       <p>
                         <strong>Tools:</strong> Dreamviewer, Photoshop,
                         Notepad++
@@ -584,6 +620,9 @@ function Portfolio() {
                         </li>
                         <li>I started work RWD from this time</li>
                       </ul>
+                      <p>
+                        <strong>Technology:</strong> HTML5, CSS3, jQuery etc.
+                      </p>
                       <p>
                         <strong>Tools:</strong> Dreamviewer, Photoshop,
                         Notepad++
@@ -634,6 +673,9 @@ function Portfolio() {
                         </li>
                       </ul>
                       <p>
+                        <strong>Technology:</strong> HTML5, CSS3, Wordpress, jQuery etc.
+                      </p>
+                      <p>
                         <strong>Tools:</strong> Dreamviewer, Photoshop, flash,
                         Notepad++
                       </p>
@@ -670,6 +712,9 @@ function Portfolio() {
                         <li>I useed to work on wordpress as well in this organisation.</li>
                         <li>I have completed lots of project becuase its a service based company</li>
                       </ul>
+                      <p>
+                        <strong>Technology:</strong> HTML5, CSS3, Flexbox, SASS, JavaScript, jQuery etc.
+                      </p>
                       <p>
                         <strong>Tools:</strong> Dreamviewer, Photoshop,
                         Notepad++
@@ -714,6 +759,9 @@ function Portfolio() {
                         </li>
                       </ul>
                       <p>
+                        <strong>Technology:</strong> HTML5, CSS3, Flash Animations, jQuery etc.
+                      </p>
+                      <p>
                         <strong>Tools:</strong> Dreamviewer, Photoshop, Flash,
                         Notepad++
                       </p>
@@ -753,6 +801,9 @@ function Portfolio() {
                           Limited as Webn Designer. It was my First Company.
                         </li>
                       </ul>
+                      <p>
+                        <strong>Technology:</strong> HTML5, CSS3, Flash Animations etc.
+                      </p>
                       <p>
                         <strong>Tools:</strong> Dreamviewer, Photoshop, Flash,
                         Notepad
