@@ -108,14 +108,7 @@ function Portfolio() {
                           </li>
                           <li>
                             Develop highly interactive web applications
-                            utilizing <strong>JavaScript</strong>,
-                            <strong>HTML5</strong>,
-                            <strong>
-                              CSS3(SCSS/functions/mixins/variables)
-                            </strong>
-                            , and external web services ensuring high
-                            performance on <strong>Mobile</strong> and
-                            <strong>Desktop</strong>.
+                            utilizing <strong>JavaScript</strong>, <strong>HTML5</strong>, <strong>CSS3(SCSS/functions/mixins/variables)</strong>, and external web services ensuring high performance on <strong>Mobile</strong> and <strong>Desktop</strong>.
                           </li>
                           <li>
                             As you know its a <strong>media company</strong> so
