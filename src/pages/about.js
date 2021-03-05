@@ -26,6 +26,8 @@ function About() {
 
                 <p>I have attched a copy of my resume detailing my experience, along with links to website and companies I have had the honor of working on. on the home page <a href="mailto:https://www.codeplayer.in/">www.codeplayer.in</a></p>
 
+                <p>Also, I got <strong>The Rising Star Award</strong> In June 2015 for honor from <strong>CloudChowk Solutions Pvt. Ltd.</strong></p>
+
                 <a href="./skills/" className="btn primary"><FontAwesomeIcon icon={faBriefcase} />know more...</a>
             </div>
         </div>
