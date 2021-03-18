@@ -1,5 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import {
   faMapMarker,
   faLocationArrow,
@@ -20,9 +22,11 @@ function Contact() {
       "https://script.google.com/macros/s/AKfycbzHtewVqM6UrSkkz3InIJao3UnJQ1ZIbL_SRz8j33EQFaJmIx4/exec",
       { method: "POST", body: new FormData(e.currentTarget) }
     )
-      .then((response) =>
-        console.log("Thanks for Contacting us..! We Will Contact You Soon...")
-      )
+      .then((response) => {
+        toast("Thanks for Contacting us..! We Will Contact You Soon...");
+        e.target.reset();
+      } 
+    )
       .catch((error) => console.error("Error!", error.message));
   };
 
@@ -54,7 +58,7 @@ function Contact() {
               <label className={styles.FormLabelCol}>
                 <input
                   className={styles.FormControl}
-                  name="mobile"
+                  name="phone"
                   type="number"
                   placeholder="Enter Number"
                 />
@@ -85,6 +89,7 @@ function Contact() {
           </form>
         </div>
       </div>
+      <ToastContainer position="top-center" />
     </div>
   );
 }
