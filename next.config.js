@@ -1,4 +1,6 @@
-module.exports = {
+const withPWA = require('next-pwa')
+
+module.exports = withPWA({
   reactStrictMode: true,
   webpack: (config, { dev, isServer }) => {
     // Replace React with Preact only in client production build
@@ -12,4 +14,7 @@ module.exports = {
 
     return config;
   },
-}
+  pwa: {
+    dest: 'public'
+  }
+})
