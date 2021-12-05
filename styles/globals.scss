@@ -1,0 +1,430 @@
+$white: #ffffff;
+$alto: #dad9d9;
+$tundora: #4c4c4c;
+$heavy_metal: #282922;
+$black: #000000;
+$orange_peel: #ff9800;
+$mariner: #1f73bc;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: $white;
+  font-family: "Roboto", sans-serif;
+  font-size: 120%;
+  font-weight: 400;
+  color: $alto;
+  text-decoration: none;
+  line-height: 1.4rem;
+  @media only screen and (min-width: 768px) {
+    color: $heavy_metal;
+  }
+}
+a,
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  line-height: 1.8rem;
+}
+a {
+  color: $mariner;
+}
+button:focus {
+  outline: none;
+}
+input,
+textarea {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.8rem;
+  color: $tundora;
+  font-family: "Roboto", sans-serif;
+  @media only screen and (min-width: 768px) {
+    border: 1px solid $alto;
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  line-height: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+h3 {
+  font-size: 1.875rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1.125rem;
+}
+p {
+  font-size: 0.875em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+
+#root {
+  height: 100%;
+}
+.codeplayer {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  &::after {
+    background: url("/bg.svg") no-repeat center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    @media only screen and (min-width: 768px) {
+      background-position: right top;
+      width: 21%;
+      left: auto;
+      right: 0;
+    }
+  }
+
+  &.home::after {
+    @media only screen and (min-width: 768px) {
+      width: 31%;
+    }
+  }
+}
+.header {
+  width: 100%;
+  padding: 0 2rem;
+  .main-logo {
+    z-index: 1;
+    .logo-desktop {
+      display: none;
+      @media only screen and (min-width: 768px) {
+        display: block;
+      }
+    }
+    .logo-mobile {
+      @media only screen and (min-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}
+.social-icons {
+  display: none;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    li {
+      margin: 0 0.5rem;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    flex-basis: 100%;
+  }
+  @media only screen and (min-width: 992px) {
+    flex-basis: auto;
+  }
+}
+.social-icons {
+  display: none;
+  a {
+    color: $alto;
+  }
+  @media only screen and (min-width: 768px) {
+    display: inline-block;
+  }
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 2rem 0rem;
+  text-align: center;
+  @media only screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+.content {
+  padding: 2rem;
+  width: 100%;
+  h2 {
+    position: relative;
+    margin-bottom: 2rem;
+    &::after {
+      content: "";
+      position: absolute;
+      border: 1px solid $mariner;
+      bottom: -1rem;
+      width: 10%;
+      margin: auto;
+      left: 0;
+      right: 0;
+      @media only screen and (min-width: 768px) {
+        right: auto;
+        width: 3rem;
+        bottom: -0.5rem;
+      }
+    }
+  }
+}
+.flex-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 0rem;
+  @media only screen and (min-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .sec-divs {
+    width: 100%;
+    @media only screen and (min-width: 768px) {
+      h1 {
+        color: $heavy_metal;
+      }
+    }
+    @media only screen and (min-width: 992px) {
+      padding-right: 2rem;
+    }
+  }
+}
+ul {
+  &.mb0 {
+    li {
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.sec-skills {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  @media only screen and (min-width: 768px) {
+    padding-left: 0rem;
+    display: none;
+  }
+  @media only screen and (min-width: 992px) {
+    display: flex;
+  }
+  ul {
+    list-style: none;
+  }
+  .home-skills {
+    display: none;
+    margin: 0 2rem;
+    li {
+      line-height: 2rem;
+      color: $alto;
+    }
+    @media only screen and (min-width: 768px) {
+      display: block;
+    }
+  }
+}
+.infoSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  margin: 0 auto;
+  .home-icon {
+    color: $alto;
+    svg {
+      font-size: 2rem;
+    }
+    @media only screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+}
+.about-me {
+  background: linear-gradient(to right, $white, $mariner);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+  max-width: 250px;
+  img {
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+  }
+  @media only screen and (min-width: 768px) {
+    max-width: 500px;
+    margin: 4rem 0;
+    flex-basis: 400px;
+  }
+}
+.about-section {
+  padding: 0 2rem;
+  .Work-postion {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: $mariner;
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.btn {
+  text-align: center;
+  padding: 0.55rem 1.5rem 0.5rem;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+
+  + .btn {
+    margin-left: 1rem;
+  }
+
+  svg {
+    margin-right: 0.5rem;
+  }
+  &.primary {
+    background: $white;
+    color: $mariner;
+    &:hover {
+      background-color: $mariner;
+      color: $white;
+    }
+    @media only screen and (min-width: 768px) {
+      border: 1px solid $mariner;
+      color: $mariner;
+    }
+  }
+  &.secondary {
+    background: $white;
+    color: $mariner;
+    &:hover {
+      background-color: $tundora;
+      color: $white;
+    }
+    @media only screen and (min-width: 768px) {
+      border: 1px solid $tundora;
+      color: $tundora;
+    }
+  }
+}
+
+ul.tech-skills {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  li {
+    background-color: $white;
+    // max-width: 48%;
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 6px $alto;
+    border-radius: 3px;
+    padding: 1rem;
+    color: $tundora;
+    strong {
+      margin-bottom: 0.4rem;
+      display: inline-block;
+    }
+    @media only screen and (min-width: 768px) {
+      flex-basis: 48%;
+    }
+  }
+}
+hr {
+  margin-bottom: 1rem;
+  height: 1px;
+  border: none;
+  background-color: $mariner;
+  @media only screen and (min-width: 768px) {
+    background-color: $alto;
+  }
+}
+
+.address-info {
+  margin-top: 2rem;
+  color: $mariner;
+}
+.formelement {
+  width: 100%;
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      flex-shrink: 0;
+    }
+  }
+  input,
+  textarea {
+    width: 100%;
+  }
+}
+.popup-content {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  color: $heavy_metal;
+  overflow-y: scroll;
+  @media only screen and (min-width: 768px) {
+    max-width: 600px;
+    height: auto;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
@@ -45,20 +45,26 @@ const Navigation = [
 ];
 
 function NavigationSide({ isOpen, onClick }) {
+
   const menuClick = (e) => {
     e.stopPropagation();
-    onClick(false)
-  }
+    onClick(false);
+  };
 
   return (
-    <div className={`${Styles.Nav} ${ isOpen ? Styles.OpenNav: '' }`} onClick={menuClick}>
+    <div
+      className={`${Styles.Nav} ${isOpen ? Styles.OpenNav : ""}`}
+      onClick={menuClick}
+    >
       <ul>
         {Navigation.map(({ path, name, icon }) => (
           <li key={name}>
-            <NavLink exact activeClassName={Styles.NavActive} to={path}>
-              <span>{name}</span>
-              <FontAwesomeIcon icon={icon} />
-            </NavLink>
+            <Link exact activeClassName={Styles.NavActive} href={path}>
+              <a>
+                <span>{name}</span>
+                <FontAwesomeIcon icon={icon} />
+              </a>
+            </Link>
           </li>
         ))}
       </ul>
