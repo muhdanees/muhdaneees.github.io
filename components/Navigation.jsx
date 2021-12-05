@@ -59,7 +59,7 @@ function NavigationSide({ isOpen, onClick }) {
       <ul>
         {Navigation.map(({ path, name, icon }) => (
           <li key={name}>
-            <Link exact activeClassName={Styles.NavActive} href={path}>
+            <Link prefetch={false} href={path}>
               <a>
                 <span>{name}</span>
                 <FontAwesomeIcon icon={icon} />

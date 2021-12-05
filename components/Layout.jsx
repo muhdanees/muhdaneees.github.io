@@ -17,7 +17,7 @@ const Layout = (props) => {
         <div className="container">
           <div className="infoSec">
             <div className="main-logo">
-              <Link href="/">
+              <Link href="/" prefetch={false}>
                 <a aria-label="Code Payer Logo">
                   <span className="logo-mobile">
                     <MiniLogo />

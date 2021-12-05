@@ -29,7 +29,7 @@ const SocialLinks = [
 function SocialList({ url, icon }) {
   return (
     <li>
-      <Link href={url}>
+      <Link href={url} prefetch={false}>
         <a aria-label="Code Payer Social Links">
           <FontAwesomeIcon icon={icon} />
         </a>
