@@ -30,7 +30,7 @@ function SocialList({ url, icon }) {
   return (
     <li>
       <Link href={url}>
-        <a>
+        <a aria-label="Code Payer Social Links">
           <FontAwesomeIcon icon={icon} />
         </a>
       </Link>

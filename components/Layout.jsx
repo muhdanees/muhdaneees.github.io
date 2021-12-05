@@ -18,7 +18,7 @@ const Layout = (props) => {
           <div className="infoSec">
             <div className="main-logo">
               <Link href="/">
-                <a>
+                <a aria-label="Code Payer Logo">
                   <span className="logo-mobile">
                     <MiniLogo />
                   </span>

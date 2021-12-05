@@ -8,11 +8,10 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           <meta charset="utf-8" />
           <link rel="icon" href="/favicon.ico" />
-          <meta name="theme-color" content="#000000" />
           <meta
             name="google-site-verification"
             content="l-tszwk_PSNrXrPwYvaRZJ1ZItYl1XsfLrw5fCmPKO4"
@@ -34,15 +33,16 @@ class MyDocument extends Document {
             sizes="16x16"
             href="/favicon-16x16.png"
           />
+          <link rel="manifest" href="/site.webmanifest" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+          <meta name="msapplication-TileColor" content="#1a9def" />
+          <meta name="theme-color" content="#ffffff" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap"
             rel="stylesheet"
           />
-          <meta
-            name="description"
-            content="Code Player"
-          />
+          <meta name="description" content="Code Player" />
         </Head>
         <body>
           <Main />
