@@ -1,0 +1,69 @@
+---
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import NavigationSide from './NavigationSide.astro';
+import MainLogo from './MainLogo.astro';
+import MiniLogo from './MiniLogo.astro';
+import Social from './Social.astro';
+import Icon from './Icon.astro';
+---
+
+<div class="header">
+  <div class="container">
+    <div class="infoSec">
+      <div class="main-logo">
+          <a href="/" aria-label="Code Payer Logo">
+            <span class="logo-mobile">
+              <MiniLogo />
+            </span>
+            <span class="logo-desktop">
+              <MainLogo />
+            </span>
+          </a>
+      </div>
+      <button class="home-icon" x-on:click="navOpen = !navOpen">
+        <Icon {...faBars} />
+      </button> 
+      <NavigationSide />
+      <Social />
+    </div>
+  </div>
+</div>
+
+<style lang="scss">
+.header {
+  width: 100%;
+  padding: 0 2rem;
+  .main-logo {
+    z-index: 1;
+    .logo-desktop {
+      display: none;
+      @media only screen and (min-width: 768px) {
+        display: block;
+      }
+    }
+    .logo-mobile {
+      @media only screen and (min-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}
+
+.infoSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.home-icon {
+  color: var(--alto);
+  font-size: 2rem;
+
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+}
+</style>

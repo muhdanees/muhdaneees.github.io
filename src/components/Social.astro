@@ -1,0 +1,68 @@
+---
+import {
+  faFacebook,
+  faTwitter,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import Icon from './Icon.astro';
+const socialLinks = [
+  {
+    url: "https://www.linkedin.com/in/mohd-anees/",
+    icon: faLinkedin,
+  },
+  {
+    url: "https://github.com/muhdanees",
+    icon: faGithub,
+  },
+  {
+    url: "https://twitter.com/aneesoffice",
+    icon: faTwitter,
+  },
+  {
+    url: "https://www.facebook.com/anees.person",
+    icon: faFacebook,
+  },
+];
+---
+
+<div class="social-icons">
+  <ul>
+    {socialLinks.map((socialLink) => (
+      <li>
+        <a href={socialLink.url} aria-label="Code Payer Social Links">
+          <Icon {...socialLink.icon} />
+        </a>
+    </li>
+    ))}
+  </ul>
+</div>
+
+<style lang="scss">
+.social-icons {
+  display: none;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  li {
+    margin: 0 0.5rem;
+  }
+
+  a {
+    color: var(--alto);
+  }
+
+  @media only screen and (min-width: 768px) {
+    display: inline-block;
+    flex-basis: 100%;
+  }
+
+  @media only screen and (min-width: 992px) {
+    flex-basis: auto;
+  }
+}
+</style>

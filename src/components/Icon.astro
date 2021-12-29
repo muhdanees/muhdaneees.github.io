@@ -1,0 +1,33 @@
+---
+const { iconName, prefix, icon, className } = Astro.props;
+---
+
+<svg
+  aria-hidden="true"
+  xmlns="http://www.w3.org/2000/svg"
+  focusable="false"
+  data-icon={iconName}
+  data-prefix={prefix}
+  viewBox={`0 0 ${icon[0]} ${icon[1]}`}
+  class={`svg-inline--fa fa-${iconName} fa-w-14`}
+  >
+  <path fill="currentColor" d={icon[4]} />
+</svg>
+
+<style>
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+.fa-w-14 {
+  width: 0.875em;
+}
+</style>

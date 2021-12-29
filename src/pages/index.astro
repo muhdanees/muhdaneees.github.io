@@ -1,0 +1,65 @@
+---
+import Header from '../components/Header.astro';
+let title = 'Code Player';
+---
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{title}</title>
+  <meta name="google-site-verification" content="l-tszwk_PSNrXrPwYvaRZJ1ZItYl1XsfLrw5fCmPKO4" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href={Astro.resolve('../styles/global.scss')}>
+  <script src="https://www.googletagmanager.com/gtag/js?id=G-Z116WN1KPF"></script>
+  <script id="gtag">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Z116WN1KPF');
+  </script>
+</head>
+<body x-data="{ navOpen: false }">
+<section class="codeplayer home">
+  <Header />
+  <main class="about-section">
+    <div class="container flex-cont">
+      <div class="sec-skills">
+        <div class="about-me">
+          <!-- <Image
+            src="/about-me.jpg"
+            width="300"
+            height="300"
+            layout="fixed"
+            alt="Mohd Anees"
+          /> -->
+        </div>
+        <!-- <Lists /> -->
+      </div>
+      <div class="sec-divs">
+        <h1>Mohd Anees</h1>
+        <div class="Work-postion">Front-end Developer</div>
+        <p>
+          10+ Years of Industry experience in providing User Interface
+          Designing/Development with most usable enterprise wide
+          applications. Described as the Education of websites, UI
+          Developers are responsible for writing the code that lives behind
+          every webpage. Using their creativity and technical knowledge,
+          they plan, build and maintain the structure of a website.
+        </p>
+        <a
+          href="/mohd-anees-resume.pdf"
+          target="_blank"
+          class="btn primary"
+        >
+          <!-- <FontAwesomeIcon icon={faDownload} /> Download CV -->
+        </a>
+      </div>
+    </div>
+  </main>
+</section>
+<script src="https://unpkg.com/alpinejs" defer></script>
+</body>
+</html>
