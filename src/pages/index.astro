@@ -1,5 +1,7 @@
 ---
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Header from '../components/Header.astro';
+import Icon from '../components/Icon.astro';
 let title = 'Code Player';
 ---
 <html lang="en">
@@ -28,13 +30,13 @@ let title = 'Code Player';
     <div class="container flex-cont">
       <div class="sec-skills">
         <div class="about-me">
-          <!-- <Image
+          <img
             src="/about-me.jpg"
             width="300"
             height="300"
-            layout="fixed"
             alt="Mohd Anees"
-          /> -->
+            loading="lazy"
+          />
         </div>
         <!-- <Lists /> -->
       </div>
@@ -54,7 +56,7 @@ let title = 'Code Player';
           target="_blank"
           class="btn primary"
         >
-          <!-- <FontAwesomeIcon icon={faDownload} /> Download CV -->
+          <Icon {...faDownload} /> Download CV
         </a>
       </div>
     </div>
