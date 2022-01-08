@@ -14,7 +14,7 @@ export default function ContactUs() {
   const onSubmit = (e) => {
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbzo6YPDfF3q2mfH7D48lxyaQoej5QTILnehLYOrXaGZyyqBkAuff-V60shcydOKt3S-/exec",
+      "https://script.google.com/macros/s/AKfycbzxoq5FLqAAMiMBZ3oT8AAaBmxmYVqb_5VDQ2F85VuXZWVWdQWLiZ1vXMvCZF7wDNfe/exec",
       { method: "POST", body: new FormData(e.currentTarget) }
     )
       .then((response) => {
