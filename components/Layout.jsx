@@ -21,8 +21,8 @@ const Layout = (props) => {
       <Script id="google-analytics" strategy="afterInteractive">
         {`
         window.dataLayer = window.dataLayer || [];
-        function stag(){dataLayer.push(arguments);}
-        stag('js', new Date());
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
         gtag('config', 'G-Z116WN1KPF');
       `}
       </Script>
