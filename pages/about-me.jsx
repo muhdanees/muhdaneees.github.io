@@ -20,7 +20,7 @@ export default function AboutUs() {
             </div>
           </div>
           <div className="sec-divs">
-            <h2>About Us</h2>
+            <h2>About Me</h2>
 
             <p>Hi, This is Mohd Anees wanna say about me something.</p>
             <p>

@@ -18,8 +18,8 @@ const Navigation = [
     icon: faHome,
   },
   {
-    path: "/about-us",
-    name: "About Us",
+    path: "/about-me",
+    name: "About Me",
     icon: faUser,
   },
   {
@@ -38,8 +38,8 @@ const Navigation = [
     icon: faGlobe,
   },
   {
-    path: "/contact-us",
-    name: "Contact Us",
+    path: "/contact-me",
+    name: "Contact Me",
     icon: faEnvelope,
   },
 ];
