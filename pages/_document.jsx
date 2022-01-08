@@ -1,5 +1,4 @@
-import Document, { Html, Head, Main, NextScript, Script } from "next/document";
-
+import Document, { Html, Head, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -43,19 +42,6 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <meta name="description" content="Code Player" />
-          <Script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-Z116WN1KPF"
-          ></Script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Z116WN1KPF');`,
-            }}
-          ></script>
         </Head>
         <body>
           <Main />

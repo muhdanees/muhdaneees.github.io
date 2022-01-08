@@ -6,6 +6,7 @@ import Social from "./Social";
 import NavigationSide from "./Navigation";
 import MiniLogo from "./MiniLogo";
 import MainLogo from "./MainLogo";
+import Script from 'next/script';
 
 const Layout = (props) => {
   const { pageState, children } = props;
@@ -13,6 +14,18 @@ const Layout = (props) => {
 
   return (
     <div className={`codeplayer ${pageState}`}>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-Z116WN1KPF"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function stag(){dataLayer.push(arguments);}
+        stag('js', new Date());
+        gtag('config', 'G-Z116WN1KPF');
+      `}
+      </Script>
       <div className="header">
         <div className="container">
           <div className="infoSec">
