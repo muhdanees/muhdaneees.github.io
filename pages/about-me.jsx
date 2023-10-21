@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import Layout from "../components/Layout";
+import Link from "next/link";
 
 export default function AboutUs() {
   return (
@@ -38,7 +39,7 @@ export default function AboutUs() {
               I have attched a copy of my resume detailing my experience, along
               with links to website and companies I have had the honor of
               working on. on the home page{" "}
-              <a href="mailto:https://www.codeplayer.in/">www.codeplayer.in</a>
+              <link href="mailto:https://www.codeplayer.in/">www.codeplayer.in</link>
             </p>
 
             <p>
@@ -46,10 +47,10 @@ export default function AboutUs() {
               for honor from <strong>CloudChowk Solutions Pvt. Ltd.</strong>
             </p>
 
-            <a href="/skills/" className="btn primary">
+            <Link href="/skills/" className="btn primary">
               <FontAwesomeIcon icon={faBriefcase} />
               know more...
-            </a>
+            </Link>
           </div>
         </div>
       </div>
