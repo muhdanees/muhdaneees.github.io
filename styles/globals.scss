@@ -128,7 +128,7 @@ p:not(:last-child) {
     position: fixed;
     @media only screen and (min-width: 768px) {
       background-position: right top;
-      width: 21%;
+      width: 28%;
       left: auto;
       right: 0;
     }
@@ -232,10 +232,17 @@ p:not(:last-child) {
   }
   .sec-divs {
     width: 100%;
+    h1, p {
+      color: $white;
+    }
     @media only screen and (min-width: 768px) {
       h1 {
         color: $heavy_metal;
       }
+      p {
+        color: $heavy_metal;
+      }
+      flex-basis: 70%;
     }
     @media only screen and (min-width: 992px) {
       padding-right: 2rem;
@@ -255,8 +262,10 @@ ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex-basis: 100%;
   @media only screen and (min-width: 768px) {
     padding-left: 0rem;
+    flex-basis: 30%;
     display: none;
   }
   @media only screen and (min-width: 992px) {
@@ -296,15 +305,16 @@ ul {
 }
 .about-me {
   background: linear-gradient(to right, $white, $mariner);
-  border-radius: 50%;
+  border-radius: 4px;
   margin-bottom: 1rem;
   padding: 1rem;
   overflow: hidden;
-  max-width: 250px;
+  max-width: 100%;
   img {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 10px;
     display: block;
+    object-fit: contain;
   }
   @media only screen and (min-width: 768px) {
     max-width: 500px;
