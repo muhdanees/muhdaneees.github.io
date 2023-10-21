@@ -46,7 +46,7 @@ export default function AboutUs() {
               for honor from <strong>CloudChowk Solutions Pvt. Ltd.</strong>
             </p>
 
-            <a href="./skills/" className="btn primary">
+            <a href="/skills/" className="btn primary">
               <FontAwesomeIcon icon={faBriefcase} />
               know more...
             </a>

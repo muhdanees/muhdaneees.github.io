@@ -60,10 +60,10 @@ function NavigationSide({ isOpen, onClick }) {
         {Navigation.map(({ path, name, icon }) => (
           <li key={name}>
             <Link prefetch={false} href={path}>
-              <a>
+              <span>
                 <span>{name}</span>
                 <FontAwesomeIcon icon={icon} />
-              </a>
+              </span>
             </Link>
           </li>
         ))}

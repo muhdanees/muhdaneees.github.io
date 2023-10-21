@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Layout from "../components/Layout";
@@ -77,13 +78,13 @@ export default function Home() {
               every webpage. Using their creativity and technical knowledge,
               they plan, build and maintain the structure of a website.
             </p>
-            <a
+            <Link
               href="/mohd-anees-resume.pdf"
               target="_blank"
               className="btn primary"
             >
               <FontAwesomeIcon icon={faDownload} /> Download CV
-            </a>
+            </Link>
             {/* <a href="./contact-us/" className="btn secondary"><FontAwesomeIcon icon={faToolbox} /> Experience</a> */}
           </div>
         </div>

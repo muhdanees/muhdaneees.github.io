@@ -30,15 +30,15 @@ const Layout = (props) => {
         <div className="container">
           <div className="infoSec">
             <div className="main-logo">
-              <Link href="/" prefetch={false}>
-                <a aria-label="Code Payer Logo">
+              <Link href="/">
+                <span aria-label="Code Payer Logo">
                   <span className="logo-mobile">
                     <MiniLogo />
                   </span>
                   <span className="logo-desktop">
                     <MainLogo />
                   </span>
-                </a>
+                </span>
               </Link>
             </div>
             <button className="home-icon" onClick={(e) => setOpenMenu(true)}>
