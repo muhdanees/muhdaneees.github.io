@@ -39,7 +39,7 @@ export default function AboutUs() {
               I have attched a copy of my resume detailing my experience, along
               with links to website and companies I have had the honor of
               working on. on the home page{" "}
-              <Link href="mailto:https://www.codeplayer.in/">www.codeplayer.in</Link>
+              <Link href="mailto:https://www.codeplayer.me/">www.codeplayer.in</Link>
             </p>
 
             <p>
