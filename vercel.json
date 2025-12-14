@@ -2,9 +2,5 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm ci",
-  "framework": "nextjs",
-  "nodeVersion": "24.x",
-  "env": [
-    "NODE_ENV"
-  ]
+  "framework": "nextjs"
 }
