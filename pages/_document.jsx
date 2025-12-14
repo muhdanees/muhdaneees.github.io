@@ -77,10 +77,3 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
-        </body>
-      </Html>
-    );
-  }
-}
-
-export default MyDocument;
