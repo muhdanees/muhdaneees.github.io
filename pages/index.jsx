@@ -1,9 +1,9 @@
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Layout from "../components/Layout";
+import SEO from "../components/SEO";
 const skills = [
   {
     name: "HTML5",
@@ -49,10 +49,11 @@ function Lists() {
 export default function Home() {
   return (
     <Layout pageState="home">
-      <Head>
-        <title>Code Player</title>
-        <meta name="description" content="Code Player Portal" />
-      </Head>
+      <SEO
+        title="Mohd Anees | 10+ Years Front-End Developer & UI Expert"
+        description="Experienced Front-End Developer specializing in React, HTML5, CSS3, and modern web technologies. 10+ years creating exceptional user interfaces and web applications."
+        ogImage="https://www.codeplayer.me/og-image.jpg"
+      />
       <div className="about-section">
         <div className="container flex-cont">
           <div className="sec-skills">

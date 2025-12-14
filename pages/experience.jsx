@@ -1,10 +1,14 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
+import SEO from "../components/SEO";
 
 export default function Experience() {
   return (
     <Layout pageState="experience">
-      <div className="content">
+      <SEO
+        title="Experience | Mohd Anees - Front-End Developer Career History"
+        description="Professional experience as a Senior Front-End Developer with 10+ years working at leading tech companies including Hindustan Times, CloudChowk, and more."
+      />
         <div className="container flex-cont">
           <div className="sec-skills">
             <div className="about-me">

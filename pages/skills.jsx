@@ -1,10 +1,14 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
+import SEO from "../components/SEO";
 
 export default function Skills() {
   return (
     <Layout pageState="skills">
-      <div className="content">
+      <SEO
+        title="Technical Skills | Mohd Anees - React, HTML5, CSS3, JavaScript"
+        description="Comprehensive technical skills in React, HTML5, CSS3, JavaScript, Bootstrap, and modern web development frameworks. 10+ years of professional expertise."
+      />
         <div className="container flex-cont">
           <div className="sec-skills">
             <div className="about-me">

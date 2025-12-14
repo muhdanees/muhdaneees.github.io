@@ -3,10 +3,15 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import Link from "next/link";
+import SEO from "../components/SEO";
 
 export default function AboutUs() {
   return (
     <Layout pageState="about">
+      <SEO
+        title="About Mohd Anees | Front-End Developer with 10+ Years Experience"
+        description="Learn about Mohd Anees, an experienced Front-End Developer with 10+ years building user-friendly web applications and exceptional UI designs."
+      />
       <div className="content">
         <div className="container flex-cont">
           <div className="sec-skills">

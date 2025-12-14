@@ -7,6 +7,7 @@ import {
   faLocationArrow,
 } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
+import SEO from "../components/SEO";
 
 import styles from "../styles/Contact.module.scss";
 
@@ -26,7 +27,10 @@ export default function ContactUs() {
 
   return (
     <Layout pageState="about">
-      <div className="content">
+      <SEO
+        title="Contact Mohd Anees | Front-End Developer Inquiry Form"
+        description="Get in touch with Mohd Anees for web development projects, consultation, or inquiries. Fill out the contact form or reach out directly."
+      />
         <div className="container flex-cont">
           <div className="sec-skills">
             <div className="about-me">

@@ -4,12 +4,16 @@ import Popup from "reactjs-popup";
 import Image from "next/image";
 import "reactjs-popup/dist/index.css";
 import Layout from "../components/Layout";
+import SEO from "../components/SEO";
 import styles from "../styles/Skills.module.scss";
 
 export default function Portfolio() {
   return (
     <Layout pageState="portfolio">
-      <div className="content">
+      <SEO
+        title="Portfolio | Mohd Anees - Front-End Projects & Web Development Work"
+        description="Explore my portfolio of web development projects showcasing expertise in React, HTML5, CSS3, and responsive design. See real-world applications and web interfaces."
+      />
         <div className="container flex-cont">
           <div className="sec-skills">
             <div className="about-me">
