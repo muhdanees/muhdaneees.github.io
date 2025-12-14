@@ -9,6 +9,7 @@ export default function Skills() {
         title="Technical Skills | Mohd Anees - React, HTML5, CSS3, JavaScript"
         description="Comprehensive technical skills in React, HTML5, CSS3, JavaScript, Bootstrap, and modern web development frameworks. 10+ years of professional expertise."
       />
+      <div className="content">
         <div className="container flex-cont">
           <div className="sec-skills">
             <div className="about-me">

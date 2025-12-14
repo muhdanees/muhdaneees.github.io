@@ -14,6 +14,7 @@ export default function Portfolio() {
         title="Portfolio | Mohd Anees - Front-End Projects & Web Development Work"
         description="Explore my portfolio of web development projects showcasing expertise in React, HTML5, CSS3, and responsive design. See real-world applications and web interfaces."
       />
+      <div className="content">
         <div className="container flex-cont">
           <div className="sec-skills">
             <div className="about-me">

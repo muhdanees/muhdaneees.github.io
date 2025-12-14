@@ -9,6 +9,7 @@ export default function Experience() {
         title="Experience | Mohd Anees - Front-End Developer Career History"
         description="Professional experience as a Senior Front-End Developer with 10+ years working at leading tech companies including Hindustan Times, CloudChowk, and more."
       />
+      <div className="content">
         <div className="container flex-cont">
           <div className="sec-skills">
             <div className="about-me">

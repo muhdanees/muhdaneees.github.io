@@ -31,6 +31,7 @@ export default function ContactUs() {
         title="Contact Mohd Anees | Front-End Developer Inquiry Form"
         description="Get in touch with Mohd Anees for web development projects, consultation, or inquiries. Fill out the contact form or reach out directly."
       />
+      <div className="content">
         <div className="container flex-cont">
           <div className="sec-skills">
             <div className="about-me">
