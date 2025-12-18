@@ -355,6 +355,12 @@ ul {
   &.primary {
     background: $white;
     color: $mariner;
+    display: flex;
+    width: fit-content;
+    svg {
+      width: 24px;
+      height: 24px;
+    }
     &:hover {
       background-color: $mariner;
       color: $white;
@@ -412,8 +418,15 @@ hr {
 }
 
 .address-info {
-  margin-top: 2rem;
+  margin-bottom: 1rem;
   color: $mariner;
+  display: flex;
+  svg {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 12px;
+  }
 }
 .formelement {
   width: 100%;
